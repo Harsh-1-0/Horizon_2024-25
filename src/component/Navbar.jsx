@@ -6,7 +6,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-screen bg-[#B5DDC2] absolute top-0 ">
+    <div className="w-screen bg-[#B5DDC2] top-0 ">
       <nav className="font-normal">
         <div className="flex flex-col md:flex-row md:justify-between items-center p-4">
           <div className="flex items-center w-full md:w-auto">
