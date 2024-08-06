@@ -1,10 +1,46 @@
-/* src/index.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+  src:url("./fonts/ITC Tiffany Std Demi.otf") format("opentype");
+  font-family:"ITC";
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+.font-slogan{
+  font-family: "ITC",sans-serif;
+  font-weight:700;
+}
+.background-image{
+  background-image: url("./assets/Rectangle 5668.png");
+  background-size: cover;
+  background-position:center;
+  border-radius:1.25rem;
+  box-shadow:4px 4px 0px 0px #000;
+}
+@media (max-width: 768px) {
+  .background-image {
+      border-radius: 0.8rem;
+  }
+}
+.font-about{
+  font-family:"Poppins";
+  font-style:normal;
+}
+.bolder{
+  font-weight:700;
+  display:contents;
+}
+.marquee-container {
+  @apply w-full overflow-hidden bg-black text-white  ;
+}
 
-
-
+.marquee-content {
+  @apply animate-marquee;
+  display:flex;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
