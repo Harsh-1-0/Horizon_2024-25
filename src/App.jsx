@@ -1,4 +1,4 @@
-import Slogan from "./components/slogan"
+import Slogan from "./components/Slogan2.jsx"
 import Technica from "./components/technica" 
 import Navbar from "./component/Navbar"
 import Card from "./Components/Card";
