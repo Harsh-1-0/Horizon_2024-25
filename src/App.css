@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "ITC Tiffany W01 Regular"; 
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://db.onlinewebfonts.com/c/9b09d0e485b588d7a58a0202ceb8158d?family=ITC+Tiffany+W01+Regular) format('woff2');
+  }
+}
