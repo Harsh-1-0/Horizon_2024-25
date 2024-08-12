@@ -1,15 +1,16 @@
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Carousel from "./Components/Carousel";
+import Home from "./Components/Home.jsx";
+import About from "./Components/About.jsx";
+import Carousel from "./Components/Carousel.jsx";
 import Mainwebsite from "./Components/Mainwebsite.jsx";
 import Footer from "./Components/footer.jsx";
-import Faq from "./Components/Faq";
+import Faq from "./Components/Faq.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Slogan from "./Components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
-import Slider from "./Components/Slider";
+import Slider from "./Components/Slider.jsx";
 
-import Teamsection from "./Components/Teamsection";
+import Teamsection from "./Components/Teamsection.jsx";
+
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
   { title: "Card 2", description: "This is card 1", image: "url1" },
