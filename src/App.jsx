@@ -1,19 +1,15 @@
-import React, { useState, useRef } from 'react';
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Card from "./Components/Card";
 import Carousel from "./Components/Carousel";
-import MainWebsite from "./mainwebsite";
+import Mainwebsite from "./Mainwebsite.jsx";
 import Footer from "./footer";
 import Faq from "./Components/Faq";
-import Navbar from "./Components/Navbar";
-import Intro from './Components/Intro';
-import Hello from './Components/Hello';
-import TeamSection from "./Components/TeamSection"
-import Slogan from "./Components/Slogan"
-import Technica from "./Components/Technica" 
+import Navbar from "./Components/Navbar.jsx";
+import Slogan from "./Components/Slogan.jsx";
+import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider";
 
+import Teamsection from "./Components/Teamsection";
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
   { title: "Card 2", description: "This is card 1", image: "url1" },
@@ -24,33 +20,8 @@ const cardData = [
 ];
 
 function App() {
-  const [introFinished, setIntroFinished] = useState(false);
-  const [playAudio, setPlayAudio] = useState(false);
-  const audioRef = useRef(null);
-
-  const handleFinish = () => {
-    setIntroFinished(true);
-  };
-
-  const handlePlayAudio = (shouldPlay) => {
-    setPlayAudio(shouldPlay);
-    if (shouldPlay && audioRef.current) {
-      audioRef.current.play();
-    }
-  };
-
   return (
     <div>
-      {/* <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
-      {!introFinished ? (
-        <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
-      ) : (
-        <>
-
-        </>
-      )} */}
-
-    
       <div className="flex flex-col ">
         <div className="w-full">
           <Navbar />
@@ -69,14 +40,23 @@ function App() {
               <Carousel cardData={cardData} />
             </div>
           </div>
-          <Slider/>
-          <Technica><div>One of the Biggest Technical Fests in India <span className="bolder">is back in 2024</span></div>
-    {<div className="mt-2 sm:mt-5">Sed vestibulum diam auctor, tincidunt <span className="bolder">mi nec</span></div>}
-        </Technica>
-        <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
-          <MainWebsite />
-          <About/>
-          <TeamSection></TeamSection>
+          <Slider />
+          <Technica>
+            <div>
+              One of the Biggest Technical Fests in India{" "}
+              <span className="bolder">is back in 2024</span>
+            </div>
+            {
+              <div className="mt-2 sm:mt-5">
+                Sed vestibulum diam auctor, tincidunt{" "}
+                <span className="bolder">mi nec</span>
+              </div>
+            }
+          </Technica>
+          <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
+          <Mainwebsite />
+          <About />
+          <Teamsection />
           <Faq />
           <Footer />
         </div>
@@ -86,4 +66,3 @@ function App() {
 }
 
 export default App;
-    

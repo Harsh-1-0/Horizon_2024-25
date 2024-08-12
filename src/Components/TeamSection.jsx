@@ -1,4 +1,3 @@
-import React from "react";
 import akm from "../images/akm.png";
 import ali from "../images/ali.png";
 import anaghha from "../images/anaghha.png";
@@ -17,7 +16,7 @@ import tanisha from "../images/tanisha.png";
 import urza from "../images/urza.png";
 import ved from "../images/ved.png";
 
-const TeamSection = () => {
+const Teamsection = () => {
   const facultyCoordinators = [
     {
       name: "DR. S SASIKUMAR ",
@@ -129,7 +128,10 @@ const TeamSection = () => {
   const defaultImageStyle = { height: "271px", width: "219px" };
 
   return (
-    <div className="text-center text-black py-10" style={{ backgroundColor: "#FEFBEC" }}>
+    <div
+      className="text-center text-black py-10"
+      style={{ backgroundColor: "#FEFBEC" }}
+    >
       <div
         className="header-box"
         style={{
@@ -144,7 +146,9 @@ const TeamSection = () => {
 
       {/* Faculty Coordinators Section */}
       <div className="mb-10">
-        <h3 className="text-2xl font-semibold mb-6 font-custom">FACULTY COORDINATORS</h3>
+        <h3 className="text-2xl font-semibold mb-6 font-custom">
+          FACULTY COORDINATORS
+        </h3>
         <div className="flex justify-center gap-8">
           {facultyCoordinators.map((coordinator, index) => (
             <div key={index} className="text-center">
@@ -197,4 +201,4 @@ const TeamSection = () => {
   );
 };
 
-export default TeamSection;
+export default Teamsection;

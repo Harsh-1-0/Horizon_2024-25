@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function MainWebsite() {
+function Mainwebsite() {
   return (
-    <div id="main-website" className="relative bg-[#B5DDC2] min-h-screen flex justify-center items-center">
+    <div
+      id="main-website"
+      className="relative bg-[#B5DDC2] min-h-screen flex justify-center items-center"
+    >
       {/* Iframe Container */}
       <iframe
         src="https://istevit.in/"
@@ -16,4 +19,4 @@ function MainWebsite() {
   );
 }
 
-export default MainWebsite;
+export default Mainwebsite;
