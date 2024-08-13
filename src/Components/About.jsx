@@ -4,10 +4,10 @@ const About = () => {
       <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden z-0 place-content-center h-screen">
         <div className="relative bg-customGreen flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
           <div className="text-black text-6xl md:text-7xl lg:text-9xl font-main animate-marquee">
-            HORIZON'24
+            HORIZON&apos;24{" "}
           </div>
           <div className="text-black text-6xl md:text-7xl lg:text-9xl font-main animate-marquee ml-10 delay-1000">
-            HORIZON'24
+            HORIZON&apos;24{" "}
           </div>
         </div>
       </div>
