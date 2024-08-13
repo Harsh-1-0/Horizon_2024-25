@@ -9,7 +9,7 @@ import Slogan from "./Components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider.jsx";
 
-import Teamsection from "./Components/Teamsection.jsx";
+// import Teamsection from "./Components/Teamsection.jsx";
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -57,7 +57,7 @@ function App() {
           <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
           <Mainwebsite />
           <About />
-          <Teamsection />
+          {/* <Teamsection /> */}
           <Faq />
           <Footer />
         </div>
