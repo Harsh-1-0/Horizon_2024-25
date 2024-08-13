@@ -1,4 +1,3 @@
-
 import { AiFillInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io5";
@@ -16,7 +15,7 @@ function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
+    <footer className="w-full md:pt-8 pt-4 px-4 bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
       {/* For small screens */}
       <div className="block md:hidden relative">
         <div className="text-xl mb-4">
@@ -50,35 +49,35 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaXTwitter className="text-3xl bg-white" />
+              <FaXTwitter className="text-3xl  text-black" />
             </a>
             <a
               href="https://github.com/ISTE-VIT"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IoLogoGithub className="text-3xl bg-white" />
+              <IoLogoGithub className="text-3xl  text-black" />
             </a>
             <a
               href="https://www.youtube.com/@ISTEVITVellore"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaYoutube className="text-3xl bg-white" />
+              <FaYoutube className="text-3xl  text-black" />
             </a>
             <a
               href="https://www.linkedin.com/company/indian-society-for-technical-education/mycompany/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-3xl bg-white" />
+              <FaLinkedin className="text-3xl  text-black" />
             </a>
             <a
               href="https://www.instagram.com/iste_vit_vellore/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillInstagram className="text-3xl bg-white" />
+              <AiFillInstagram className="text-3xl  text-black" />
             </a>
           </div>
         </div>
@@ -105,35 +104,35 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaXTwitter className="mr-4 text-2xl" />
+                <FaXTwitter className="mr-4 text-2xl text-black " />
               </a>
               <a
                 href="https://github.com/ISTE-VIT"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <IoLogoGithub className="mr-4 text-2xl" />
+                <IoLogoGithub className="mr-4 text-2xl text-black" />
               </a>
               <a
                 href="https://www.youtube.com/@ISTEVITVellore"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaYoutube className="mr-4 text-2xl" />
+                <FaYoutube className="mr-4 text-2xl text-black" />
               </a>
               <a
                 href="https://www.linkedin.com/company/indian-society-for-technical-education/mycompany/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin className="mr-4 text-2xl" />
+                <FaLinkedin className="mr-4 text-2xl text-black" />
               </a>
               <a
                 href="https://www.instagram.com/iste_vit_vellore/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram className="text-2xl" />
+                <AiFillInstagram className="text-2xl text-black" />
               </a>
             </div>
           </div>

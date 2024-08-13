@@ -6,7 +6,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#B5DDC2]   ">
+    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black  ">
       <nav className="font-normal">
         <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
           <div className="flex items-center w-full md:w-full">
@@ -66,7 +66,14 @@ function App() {
             <ul className="flex flex-col md:flex-row md:space-x-8 md:items-center">
               <li>
                 {/* <button className="bg-[#B5DDC2] text-black p-2 text-xl">About</button> */}
-                <button className="bg-[#B5DDC2]">
+                <button
+                  onClick={() =>
+                    document
+                      .getElementById("about")
+                      .scrollIntoView({ behavior: "smooth" })
+                  }
+                  className="bg-[#B5DDC2]"
+                >
                   <svg
                     width="61"
                     height="16"
@@ -82,7 +89,14 @@ function App() {
                 </button>
               </li>
               <li>
-                <button className="bg-[#B5DDC2]">
+                <button
+                  onClick={() =>
+                    document
+                      .getElementById("events")
+                      .scrollIntoView({ behavior: "smooth" })
+                  }
+                  className="bg-[#B5DDC2]"
+                >
                   <svg
                     width="64"
                     height="15"
@@ -104,7 +118,14 @@ function App() {
                 {/* <button className=" px-4 py-2 bg-[#F2C6AB] rounded-full flex items-center gap-2 text-black border-black text-xl hover: p-2 "> */}
                 {/* <span>Technica</span> */}
                 {/* </button> */}
-                <button className="px-4 py-5 bg-[#F2C6AB] rounded-full flex items-center gap- border-black hover: p-2 ">
+                <button
+                  onClick={() =>
+                    document
+                      .getElementById("technica")
+                      .scrollIntoView({ behavior: "smooth" })
+                  }
+                  className="px-4 py-5 bg-[#F2C6AB] rounded-full flex items-center gap- border-black hover: p-2 "
+                >
                   <svg
                     width="89"
                     height="16"

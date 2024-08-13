@@ -20,14 +20,15 @@ const Teamsection = () => {
   const facultyCoordinators = [
     {
       name: "DR. S SASIKUMAR ",
-      role: "PROFESSOR, DEPARTMENT OF CHEMISTRY",
+      role: "director of post-graduate admissions",
       image: facultys,
-      size: { height: "271px", width: "300px" },
+      size: { height: "300px", width: "auto" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE ",
       image: faculty,
+      size: { height: "300px", width: "auto" },
     },
   ];
 
@@ -60,31 +61,31 @@ const Teamsection = () => {
       name: "KHUSHI SIKARIA ",
       role: "EVENTS HEAD",
       image: khushiboard,
-      size: { height: "271px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "TANISHA PAHWA",
       role: "LOGISTICS HEAD",
       image: tanisha,
-      size: { height: "271px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "SAMEER PALKAR",
       role: "PUBLICITY HEAD",
       image: sameer,
-      size: { height: "350px", width: "219px" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "URZA RAI",
       role: "OPERATIONS HEAD",
       image: urza,
-      size: { height: "271px", width: "219px" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "GAGAN N BANGARAGIRI",
       role: "DESIGN HEAD",
       image: kk,
-      size: { height: "350px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "ARADHYE SWARUP",
@@ -96,31 +97,31 @@ const Teamsection = () => {
       name: "ALI RASHID",
       role: "TECHNICAL HEAD",
       image: ali,
-      size: { height: "271px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "ASHWANI KUMAR MOUDGIL",
       role: "PROJECTS HEAD",
       image: akm,
-      size: { height: "290px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "HARSH KUMAR SINHA",
       role: "INNOVATIONS HEAD",
       image: harsh,
-      size: { height: "290px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "ANAGHHASHREE PERUMAL",
       role: "R&D HEAD",
       image: anaghha,
-      size: { height: "290px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
     {
       name: "HEMA HARINI G",
       role: "IOT HEAD",
       image: hema,
-      size: { height: "290px", width: "auto" }, // Custom size
+      size: { height: "300px", width: "auto" }, // Custom size
     },
   ];
 
@@ -149,7 +150,7 @@ const Teamsection = () => {
         <h3 className="text-2xl font-semibold mb-6 font-custom">
           FACULTY COORDINATORS
         </h3>
-        <div className="flex justify-center gap-8">
+        <div className="flex max-md:flex-col justify-center gap-8">
           {facultyCoordinators.map((coordinator, index) => (
             <div key={index} className="text-center">
               <img

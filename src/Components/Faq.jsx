@@ -45,21 +45,21 @@ const Faq = () => {
         </div>
       </div>
       <div className="relative z-10 w-[350px] md:w-[650px] lg:w-[800px] bg-beige rounded-[30px] shadow-lg border-2 border-black">
-        <h2 className="bg-customGreen w-full text-xl md:text-3xl font-poppins font-bold rounded-t-[30px] py-6 px-8 border-b border-black">
+        <h2 className="bg-customGreen w-full text-2xl md:text-5xl font-poppins font-bold rounded-t-[30px] py-6 px-8 border-b border-black text-black">
           FAQs{" "}
         </h2>
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className={`p-4 font-poppins ${
+            className={`p-4 font-poppins  ${
               index !== faqs.length - 1 ? "border-b border-black" : ""
             }`}
           >
             <button
               onClick={() => handleToggle(index)}
-              className=" w-full text-left flex justify-between items-center focus:outline-none"
+              className=" w-full text-left flex bg-white justify-between items-center focus:outline-none"
             >
-              <span className="text-sm md:text-base lg:text-lg">
+              <span className="text-sm  md:text-base lg:text-lg text-black">
                 {faq.question}
               </span>
               <svg
@@ -84,7 +84,7 @@ const Faq = () => {
                 activeIndex === index ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <div className="text-slate-700 mt-2 text-sm md:text-base lg:text-lg">
+              <div className="text-slate-700 mt-2 text-sm md:text-base lg:text-lg ">
                 <p>{faq.answer}</p>
               </div>
             </div>

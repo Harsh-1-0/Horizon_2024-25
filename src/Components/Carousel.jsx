@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import Card from "./Card"; // Import your existing Card component
+import Card from "./Card";
 
 const Carousel = ({ cardData }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,9 +19,12 @@ const Carousel = ({ cardData }) => {
   };
 
   return (
-    <div className=" text-slate-600 carousel-container relative overflow-hidden flex">
+    <div
+      id="events"
+      className=" text-black carousel-container relative overflow-hidden flex"
+    >
       <button
-        className="carousel-button left absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] left-[2.8%]"
+        className="carousel-button bg-transparent left absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] left-[2.8%]"
         onClick={goLeft}
       >
         <img src="/Group 35794.png" alt="<" />
@@ -46,7 +49,7 @@ const Carousel = ({ cardData }) => {
       </div>
 
       <button
-        className="carousel-button right absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] right-[2.8%]"
+        className="carousel-button hover:shadow-sm  bg-transparent right absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] right-[2.8%]"
         onClick={goRight}
       >
         <img src="/Group 35793.png" alt=">" />

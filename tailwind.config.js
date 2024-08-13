@@ -6,52 +6,52 @@ export default {
       // fontFamily: {
       //    'poppins': ['Poppins'],
       // },
-   
+
       fontSize: {
-        '9xl': '9rem',
-        '12xl': '12rem',
+        "9xl": "9rem",
+        "12xl": "12rem",
       },
       fontFamily: {
-        'tiffany': ['ITC Tiffany Std Demi', 'sans-serif'],
-        'poppins': ['Poppins', 'sans-serif'],
-        itc:['ITC','sans-serif']
-
+        tiffany: ["ITC Tiffany Std Demi", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        itc: ["ITC", "sans-serif"],
       },
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(-50%)' },
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
       animation: {
-        'marquee' : 'marquee 10s linear infinite ',
+        marquee: "marquee 10s linear infinite ",
       },
-    
+
       colors: {
-        "custom":"#FEFBEC",
-        "technica":"#B5DDC2",
-        "about":"#1E1E1E",
-        "button":"#F2C6AB",
-        "button-click":"#F0B590",
-        customColor: '#F2C6AB',
-        greenish: '#171817',
-        customGreen: '#B5DDC2',
-        beige: '#FEFBEC',
-      },     
-      screens:{
-        "custom":"768px"
+        custom: "#FEFBEC",
+        technica: "#B5DDC2",
+        about: "#1E1E1E",
+        button: "#F2C6AB",
+        "button-click": "#F0B590",
+        customColor: "#F2C6AB",
+        greenish: "#171817",
+        customGreen: "#B5DDC2",
+        beige: "#FEFBEC",
+        technicagrey: "#1E1E1E",
       },
-      width:{
-        'clamp-24vw-24vw-30vw':'clamp(24vw,24vw,30vw)',
-        'clamp-85vw-85vw-85vw':'clamp(85vw,85vw,85vw)'
+      screens: {
+        custom: "768px",
       },
-      height:{
-        'clamp-24vw-25vw-40vw':'clamp(24vw,25vw,40vw)',
-        'clamp-40vw-55vw-60vw':'clamp(40vw,55vw,60vw)'
+      width: {
+        "clamp-24vw-24vw-30vw": "clamp(24vw,24vw,30vw)",
+        "clamp-85vw-85vw-85vw": "clamp(85vw,85vw,85vw)",
       },
-      borderRadius:{
-        'tiny':'1rem'
-      }
+      height: {
+        "clamp-24vw-25vw-40vw": "clamp(24vw,25vw,40vw)",
+        "clamp-40vw-55vw-60vw": "clamp(40vw,55vw,60vw)",
+      },
+      borderRadius: {
+        tiny: "1rem",
+      },
     },
   },
   plugins: [],

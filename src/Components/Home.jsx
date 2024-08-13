@@ -3,23 +3,19 @@ import "../index.css";
 function Home() {
   return (
     <div>
-      <div className="hidden lg:block h-screen w-full bg-[#b5ddc2]">
+      <div className="hidden lg:block h-screen w-full text-[#1E1E1E]  bg-[#b5ddc2]">
         <div className="h-1/3 w-full bg-[#fefbec] flex justify-center items-center">
-          <p className="text-slate-800 font-main text-[13.6vw]">
-            {" "}
-            HORIZON&apos;24
-          </p>
+          <p className=" font-main text-[13.6vw]"> HORIZON&apos;24</p>
         </div>
-        <div className="flex w-full bg-[#b5ddc2] items-center h-2/3 border-t-black border-b-black border-2">
-          <div className="w-2/3 h-full border-black border-r-2  p-12">
+        <div className="flex  w-full bg-[#b5ddc2] items-center h-2/3 border-t-black border-b-black border-2">
+          <div className="w-2/3 h-full border-black border-r-2  p-12 block text-5xl font-poppins">
             <br /> <br />
-            <span className="block text-5xl font-poppins ">
-              One of the Biggest Technical
-            </span>
+            One of the Biggest Technical
+            <span className="block  text-5xl font-poppins "></span>
             <br />
-            <span className="block text-5xl font-poppins ">
+            <span className="block text-5xl  font-poppins ">
               Fests in India{" "}
-              <span className="font-extrabold">is back in 2024</span>
+              <span className="font-extrabold ">is back in 2024</span>
             </span>
             <br />
             <span className="block text-3xl mb-[6vh] font-poppins ">
@@ -41,35 +37,38 @@ function Home() {
 
       <div className="lg:hidden h-screen w-full overflow-hidden bg-[#b5ddc2]">
         <div className="h-[16vh] md:h-[11vh] w-full bg-[#fefbec] flex justify-center items-center">
-          <p className="font-main text-slate-800 text-[14vw] md:text-[11vw]">
+          <p className="font-main  text-[14vw] md:text-[11vw]">
             HORIZON&apos;24
           </p>
         </div>
         <div className="w-full items-center h-[84vh] lg:border-t-black lg:border-b-black lg:border-2">
           <div className="w-full h-full border-black flex flex-col justify-evenly">
             <div className="h-[25vh] mt-[5vh] md:mt-[7vh] md:text-center px-20">
-              <span className="text-xl md:text-4xl font-poppins">
+              <span
+                className="text-xl md:text-4xl font-poppins text-[#1E1E1E];
+"
+              >
                 One of the Biggest Technical
               </span>
               <br />
-              <span className="block my-2 md:my-1 text-xl md:text-4xl font-poppins">
+              <span className="block text-[#1E1E1E] my-2 md:my-1 text-xl md:text-4xl font-poppins">
                 Fests in India{" "}
                 <span className="font-extrabold">is back in 2024</span>
               </span>
               <br />
-              <span className="text-xl md:text-4xl font-poppins block">
+              <span className="text-xl md:text-4xl text-technicagreyfont-poppins block">
                 Sed vestibulum diam auctor,{" "}
               </span>
-              <span className="text-xl md:text-4xl mb-4 font-poppins">
+              <span className="text-xl md:text-4xl mb-4 text-[#1E1E1E] font-poppins">
                 tincidunt <span className="font-extrabold">mi nec</span>
               </span>
               <br />
             </div>
-            <div className="flex flex-col justify-evenly items-center py-8">
+            <div className="flex flex-col justify-evenly items-center ">
               <img src="/homepage.png" alt="img" className="size-64" />
               <button
                 type="submit"
-                className="bg-[#F2C6AB] mt-4 border-black border-1 rounded-xl text-xl md:mt-16 w-2/5 -py-4"
+                className="bg-[#F2C6AB]  text-[#1E1E1E] mt-4 border-black border-1 rounded-xl text-xl md:mt-16 w-2/5 -py-4"
               >
                 Register Now
               </button>

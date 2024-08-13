@@ -8,8 +8,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Slogan from "./Components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider.jsx";
-
-// import Teamsection from "./Components/Teamsection.jsx";
+import Teamsection from "./Components/TeamSection.jsx";
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -17,7 +16,6 @@ const cardData = [
   { title: "Card 3", description: "This is card 2", image: "url2" },
   { title: "Card 4", description: "This is card 3", image: "url3" },
   { title: "Card 5", description: "This is card 3", image: "url3" },
-  // Add more card data as needed
 ];
 
 function App() {
@@ -29,7 +27,7 @@ function App() {
         </div>
         <div>
           <Home />
-          <div className="entire bg-[#FEFBEC]">
+          <div className="   bg-[#FEFBEC]">
             <div className="workshops bg-[#B5DDC2] h-[177px] border-t-2 border-b-2 border-black flex justify-center items-center">
               <p className="text-[120px] font-bold leading-[144px] text-left font-itc-tiffany">
                 WORKSHOPS
@@ -57,7 +55,7 @@ function App() {
           <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
           <Mainwebsite />
           <About />
-          {/* <Teamsection /> */}
+          <Teamsection />
           <Faq />
           <Footer />
         </div>
