@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className="w-screen flex justify-center">
+    <div className="w-[98vw] flex justify-center">
       <div className="card-mine h-[590px] w-[825px] border-2 border-black rounded-[48px] bg-[#FEFBEC] overflow-hidden relative">
         <div className="top h-[249px] border-b border-black overflow-hidden flex">
           <div className="circle h-[381.39px] w-[381.39px] border border-black rounded-full bg-[#B5DDC2] relative top-[96.14px] left-[-174.26px]"></div>

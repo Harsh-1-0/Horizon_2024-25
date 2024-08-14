@@ -27,6 +27,7 @@ function App() {
         </div>
         <div>
           <Home />
+          <About />
           <div className="  bg-[#FEFBEC]">
             <div className="workshops bg-[#B5DDC2] h-[177px] border-t-2 border-b-2 border-black flex justify-center items-center">
               <p className="text-[120px] font-bold leading-[144px] text-left font-itc-tiffany">
@@ -54,7 +55,7 @@ function App() {
           </Technica>
           <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
           <Mainwebsite />
-          <About />
+
           <Teamsection />
           <Faq />
           <Footer />

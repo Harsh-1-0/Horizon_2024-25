@@ -32,7 +32,7 @@ const Carousel = ({ cardData }) => {
       </button>
 
       <div
-        className="w-screen  flex transition-transform duration-300 ease-in-out"
+        className="w-[98vw] flex transition-transform duration-300 ease-in-out"
         style={{
           transform: `translateX(-${
             currentIndex * 5 * (100 / cardData.length)
