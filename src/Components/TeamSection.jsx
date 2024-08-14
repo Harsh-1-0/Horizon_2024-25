@@ -28,7 +28,7 @@ const Teamsection = () => {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE ",
       image: faculty,
-      size: { height: "350px", width: "300px" },
+      size: { height: "350px", width: "350px" },
     },
   ];
 
