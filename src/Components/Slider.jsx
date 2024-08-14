@@ -28,7 +28,7 @@ const Slider = ({ className = "" }) => {
   }, []);
 
   return (
-    <div
+    <div id = "technica"
       className={`flex items-center justify-center max-h-screen ${className}`}
     >
       <section
