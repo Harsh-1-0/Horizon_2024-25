@@ -6,7 +6,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black z-20 fixed ">        
+    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black z-20 ">        
     {/* changed z index  */}
       <nav className="font-normal">
         <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
