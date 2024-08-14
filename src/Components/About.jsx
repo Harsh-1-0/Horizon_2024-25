@@ -14,7 +14,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" text-black p-4 hover:bg-[#F2C6AB] hover:lg:w-[850px] hover:md:w-[450px] hover:w-[450px]  relative bg-opacity-90 backdrop-blur z-10 w-[400px] md:w-[450px]  lg:w-[800px] bg-beige  hover:bg-customPink hover:bg-opacity-80 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
+      <div className=" text-black p-4 hover:bg-[#F8DBC9] hover:lg:w-[850px]   relative bg-opacity-90 backdrop-blur z-10 w-[400px] md:w-[450px]  lg:w-[800px] bg-beige  hover:bg-customPink hover:bg-opacity-80 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
         <h2 className=" text-center   w-full text-3xl  md:text-6xl font-main font-bold rounded-t-[30px] py-12 px-8">
           ABOUT US
         </h2>
