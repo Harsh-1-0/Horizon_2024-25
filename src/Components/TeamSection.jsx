@@ -56,6 +56,7 @@ const Teamsection = () => {
       name: "KESHAV SHARMA",
       role: "CO-SECRETARY",
       image: keshav,
+      size: { height: "271px", width: "auto" },
     },
     {
       name: "KHUSHI SIKARIA ",
