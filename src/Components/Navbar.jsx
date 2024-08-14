@@ -6,7 +6,8 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black  ">
+    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black z-20 fixed ">        
+    {/* changed z index  */}
       <nav className="font-normal">
         <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
           <div className="flex items-center w-full md:w-full">
@@ -124,7 +125,7 @@ function App() {
                       .getElementById("technica")
                       .scrollIntoView({ behavior: "smooth" })
                   }
-                  className="px-4 py-5 bg-[#F2C6AB] rounded-full flex items-center gap- border-black hover: p-2 "
+                  className="px-4 py-5 bg-[#F2C6AB] rounded-full flex items-center gap- border-black hover:bg-blue-200 transition-all hover:border-black p-3 ease-in-out delay-20 "
                 >
                   <svg
                     width="89"

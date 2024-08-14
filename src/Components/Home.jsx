@@ -4,8 +4,9 @@ function Home() {
   return (
     <div>
       <div className="hidden lg:block h-screen w-full text-[#1E1E1E]  bg-[#b5ddc2]">
-        <div className="h-1/3 w-full bg-[#fefbec] flex justify-center items-center">
-          <p className=" font-main text-[13.6vw]"> HORIZON&apos;24</p>
+        <div className=" w-full bg-[#fefbec] flex justify-center items-center">
+          {/* changed the height of the above div  */}
+          <p className=" font-main text-[13.6vw] pt-20"> HORIZON&apos;24</p>
         </div>
         <div className="flex  w-full bg-[#b5ddc2] items-center h-2/3 border-t-black border-b-black border-2">
           <div className="w-2/3 h-full border-black border-r-2  p-12 block text-5xl font-poppins">

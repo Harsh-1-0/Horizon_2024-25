@@ -24,7 +24,7 @@ const About = () => {
           range of technical events and fostering a strong technical community.
           Through engaging initiatives such as technical workshops, Hackathons,
           and Code-a- thons, we aim to uncover and nurture the hidden talents in
-          students, providing them with the platform to excel and make
+          students, providing them with the platform to excel and make  
           meaningful contributions to the technical landscape.
         </p>
       </div>
