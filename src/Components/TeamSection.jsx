@@ -22,13 +22,13 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR ",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "350px", width: "300px" },
+      size: { height: "320px", width: "300px" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE ",
       image: faculty,
-      size: { height: "350px", width: "350px" },
+      size: { height: "320px", width: "300px" },
     },
   ];
 
@@ -42,7 +42,7 @@ const Teamsection = () => {
       name: "VED KULKARNI",
       role: "VICE CHAIRPERSON ",
       image: ved,
-      size: { height: "271px", width: "auto" }, // Custom size
+      size: { height: "271px", width: "auto" }, 
     },
     {
       name: "JAHNAVI MAJUMDER",
