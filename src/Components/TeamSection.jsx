@@ -20,7 +20,7 @@ const Teamsection = () => {
   const facultyCoordinators = [
     {
       name: "DR. S SASIKUMAR ",
-      role: "director of post-graduate admissions",
+      role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
       size: { height: "300px", width: "auto" },
     },
