@@ -137,18 +137,20 @@ const Teamsection = () => {
       <div
         className="header-box"
         style={{
-          backgroundColor: "#ADC3A8",
+          backgroundColor: "#b5ddc2",
           padding: "20px",
           marginBottom: "40px",
           textAlign: "center",
         }}
       >
-        <h2 className="text-4xl font-bold mb-8 font-custom">OUR TEAM</h2>
+        <h2 className="text-8xl max-md:text-6xl font-bold p-5 font-[tiffany]">
+          OUR TEAM
+        </h2>
       </div>
 
       {/* Faculty Coordinators Section */}
       <div className="mb-10">
-        <h3 className="text-2xl font-semibold mb-6 font-custom">
+        <h3 className="text-4xl font-semibold mb-6 font-[tiffany]">
           FACULTY COORDINATORS
         </h3>
         <div className="flex max-md:flex-col justify-center gap-8">
@@ -160,41 +162,45 @@ const Teamsection = () => {
                 className="mx-auto mb-4"
                 style={defaultImageStyle} // Consistent image size
               />
-              <h4 className="font-semibold">{coordinator.name}</h4>
-              <p className="text-gray-600">{coordinator.role}</p>
+              <h4 className="text-xl font-semibold">{coordinator.name}</h4>
+              <p className="text-xl text-gray-600">{coordinator.role}</p>
             </div>
           ))}
         </div>
       </div>
       <div>
-        <h3 className="text-2xl font-semibold mb-6 font-custom">ORGANIZERS</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
-          {organizers1.map((organizer, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={organizer.image}
-                alt={organizer.name}
-                className="mx-auto mb-2"
-                style={organizer.size || defaultImageStyle} // Apply custom size if defined
-              />
-              <h4 className="font-semibold">{organizer.name}</h4>
-              <p className="text-gray-600">{organizer.role}</p>
-            </div>
-          ))}
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 justify-items-center">
-          {organizers2.map((organizer, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={organizer.image}
-                alt={organizer.name}
-                className="mx-auto mb-2"
-                style={organizer.size || defaultImageStyle} // Apply custom size if defined
-              />
-              <h4 className="font-semibold">{organizer.name}</h4>
-              <p className="text-gray-600">{organizer.role}</p>
-            </div>
-          ))}
+        <h3 className="text-4xl font-semibold mb-6 font-[tiffany]">
+          ORGANIZERS
+        </h3>
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+            {organizers1.map((organizer, index) => (
+              <div key={index} className="text-center">
+                <img
+                  src={organizer.image}
+                  alt={organizer.name}
+                  className="mx-auto mb-2"
+                  style={organizer.size || defaultImageStyle} // Apply custom size if defined
+                />
+                <h4 className="text-xl font-semibold">{organizer.name}</h4>
+                <p className="text-xl text-gray-600">{organizer.role}</p>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 justify-items-center">
+            {organizers2.map((organizer, index) => (
+              <div key={index} className="text-center">
+                <img
+                  src={organizer.image}
+                  alt={organizer.name}
+                  className="mx-auto mb-2"
+                  style={organizer.size || defaultImageStyle} // Apply custom size if defined
+                />
+                <h4 className="text-xl font-semibold">{organizer.name}</h4>
+                <p className="text-xl text-gray-600">{organizer.role}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

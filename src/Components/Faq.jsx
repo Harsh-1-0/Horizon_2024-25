@@ -35,7 +35,7 @@ const Faq = () => {
   return (
     <div className="relative min-h-screen bg-beige flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden z-0 place-content-center h-screen ">
-        <div className="relative bg-customColor flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
+        <div className="relative gap-5 bg-customColor flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
           <div className="text-black text-6xl md:text-7xl lg:text-9xl font-main animate-marquee">
             HORIZON&apos;24
           </div>
@@ -57,7 +57,7 @@ const Faq = () => {
           >
             <button
               onClick={() => handleToggle(index)}
-              className=" w-full text-left flex bg-white justify-between items-center focus:outline-none"
+              className=" w-full text-left flex bg-beige justify-between items-center focus:outline-none"
             >
               <span className="text-sm  md:text-base lg:text-lg text-black">
                 {faq.question}

@@ -6,7 +6,6 @@ function Mainwebsite() {
     >
       <iframe
         src="https://istevit.in/"
-        frameBorder="0"
         width="60%"
         height="600px"
         className="border-[4px] w-[400px] md:w-[450px]  lg:w-[1024px] border-white p-4 md:p-10 rounded-lg shadow-lg shadow-white hover:shadow-[#B5DDC2] hover:border-[#B5DDC2] transition-all duration-150"
