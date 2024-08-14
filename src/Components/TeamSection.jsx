@@ -22,13 +22,13 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR ",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "320px", width: "400px" },
+      size: { height: "400px", width: "300px" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE ",
       image: faculty,
-      size: { height: "320px", width: "300px" },
+      size: { height: "400px", width: "300px" },
     },
   ];
 
@@ -42,7 +42,7 @@ const Teamsection = () => {
       name: "VED KULKARNI",
       role: "VICE CHAIRPERSON ",
       image: ved,
-      size: { height: "271px", width: "auto" }, 
+      size: { height: "271px", width: "auto" },
     },
     {
       name: "JAHNAVI MAJUMDER",
@@ -159,8 +159,8 @@ const Teamsection = () => {
               <img
                 src={coordinator.image}
                 alt={coordinator.name}
-                className="mx-auto mb-4"
-                style={defaultImageStyle} // Consistent image size
+                className="mx-auto "
+                style={coordinator.size || defaultImageStyle}
               />
               <h4 className="text-xl font-semibold">{coordinator.name}</h4>
               <p className="text-xl text-gray-600">{coordinator.role}</p>
