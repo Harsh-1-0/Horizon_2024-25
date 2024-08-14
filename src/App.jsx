@@ -20,14 +20,14 @@ const cardData = [
 
 function App() {
   return (
-    <div>
+    <div className="w-full">
       <div className="flex flex-col ">
         <div className="w-full">
           <Navbar />
         </div>
         <div>
           <Home />
-          <div className="   bg-[#FEFBEC]">
+          <div className="  bg-[#FEFBEC]">
             <div className="workshops bg-[#B5DDC2] h-[177px] border-t-2 border-b-2 border-black flex justify-center items-center">
               <p className="text-[120px] font-bold leading-[144px] text-left font-itc-tiffany">
                 WORKSHOPS
