@@ -22,7 +22,7 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR ",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "320px", width: "300px" },
+      size: { height: "320px", width: "400px" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
