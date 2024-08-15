@@ -20,7 +20,7 @@ const cardData = [
 
 function App() {
   return (
-    <div className="w-[98vw]">
+    <div className="w-[98.9vw]">
       <div className="flex flex-col ">
         <div className="w-full">
           <Navbar />
