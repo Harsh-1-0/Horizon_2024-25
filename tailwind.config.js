@@ -39,12 +39,12 @@ export default {
         custom: "768px",
       },
       width: {
-        "clamp-30vw-30vw-32vw": "clamp(28vw,28vw,30vw)",
+        "clamp-30vw-30vw-32vw": "clamp(30vw,30vw,32vw)",
         "clamp-85vw-85vw-85vw": "clamp(85vw,85vw,85vw)",
       },
       
       height: {
-        "clamp-30vw-30vw-32vw": "clamp(28vw,28vw,30vw)",
+        "clamp-30vw-30vw-32vw": "clamp(30vw,30vw,32vw)",
         "clamp-40vw-55vw-60vw": "clamp(40vw,55vw,60vw)",
       },
       borderRadius: {
@@ -54,5 +54,3 @@ export default {
   },
   plugins: [],
 };
-
-
