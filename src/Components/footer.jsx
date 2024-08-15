@@ -42,7 +42,7 @@ function Footer() {
       </div>
     </div>
 
-    <div className="absolute top-0 right-0 mt-4 mr-4">
+    <div className="absolute top-0 right-0 mt-4 mr-1">
       <div className="flex space-x-4">
         <a
           href="https://x.com/iste_vitvellore"
