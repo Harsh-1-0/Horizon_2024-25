@@ -35,10 +35,15 @@ const Slider = ({ className = "" }) => {
         className={`relative overflow-hidden w-full h-lg lg:h-[32.6vh] md:[30vh] bg-[#000000] border-[#1e1e1e] border-[1.8px] lg:border-[2px] border-solid`}
         style={{ zIndex: -1 }}
       >
-        <div  className="flex items-center justify-center h-lg lg:h-[32.6vh] md:h-[30vh] whitespace-nowrap animate-slide uppercase text-custom text-[76px] lg:text-[140px] md:text-[116px] sm:text-[96px] font-slogan">
+        <div  className="flex items-center justify-center h-lg lg:h-[32.6vh] md:h-[25vh] whitespace-nowrap animate-slide uppercase text-custom text-[76px] lg:text-[140px] md:text-[116px] sm:text-[96px] font-slogan">
           <img src={tech} className="responsive-image"></img>
             TECHNICA  
-          <img src={tech} className="responsive-image"></img> 
+          <img src={tech} className="responsive-image"></img>
+            TECHNICA 
+          <img src={tech} className="responsive-image"></img>
+            TECHNICA
+          <img src={tech} className="responsive-image"></img>
+            TECHNICA
         </div>
       </section>
     </div>
