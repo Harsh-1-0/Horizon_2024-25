@@ -18,27 +18,27 @@ function Footer() {
     <footer className="font-poppins font-[400] w-full md:pt-8 pt-4 px-4 bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
       {/* For small screens */}
       <div className="block md:hidden relative">
-        <div className="text-xl mb-4">
+        <div className="text-sm mb-4">
           <div>VIT University</div>
           <div>Vellore, Tamil Nadu</div>
           <div>India - 632014</div>
         </div>
-        <div className="underline mb-2">
+        <div className="underline mb-2 text-sm">
           <a href="mailto:iste@vit.ac.in">iste@vit.ac.in</a>
         </div>
-        <div className="mb-16">+91 83289 26213</div>
+        <div className="mb-16 text-sm">+91 83289 26213</div>
 
         <div className="flex justify-between items-center mb-8">
       <span
-        className="underline cursor-pointer"
+        className="underline cursor-pointer text-sm"
         onClick={handleScrollToMainWebsite}
       >
         Visit ISTE main website
       </span>
       <div className="flex items-center">
-        <span>Made with</span>
-        <FaHeart className="text-[#e09088] mx-2 text-xl" />
-        <span>by ISTE</span>
+        <span className="text-sm">Made with</span>
+        <FaHeart className="text-[#e09088] mx-2 text-sm" />
+        <span className="text-sm">by ISTE</span>
       </div>
     </div>
 
@@ -49,35 +49,35 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaXTwitter className="text-3xl  text-black" />
+          <FaXTwitter className="text-xl  text-black" />
         </a>
         <a
           href="https://github.com/ISTE-VIT"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <IoLogoGithub className="text-3xl  text-black" />
+          <IoLogoGithub className="text-xl  text-black" />
         </a>
         <a
           href="https://www.youtube.com/@ISTEVITVellore"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaYoutube className="text-3xl  text-black" />
+          <FaYoutube className="text-xl  text-black" />
         </a>
         <a
           href="https://www.linkedin.com/company/indian-society-for-technical-education/mycompany/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="text-3xl  text-black" />
+          <FaLinkedin className="text-xl  text-black" />
         </a>
         <a
           href="https://www.instagram.com/iste_vit_vellore/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <AiFillInstagram className="text-3xl  text-black" />
+          <AiFillInstagram className="text-xl  text-black" />
         </a>
       </div>
     </div>
