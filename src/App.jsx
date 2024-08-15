@@ -2,7 +2,7 @@ import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Carousel from "./Components/Carousel.jsx";
 import Mainwebsite from "./Components/Mainwebsite.jsx";
-import Footer from "./Components/footer.jsx";
+import Footer from "./Components/Footer.jsx";
 import Faq from "./Components/Faq.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import Slogan from "./Components/Slogan.jsx";
