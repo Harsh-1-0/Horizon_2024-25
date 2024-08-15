@@ -5,7 +5,7 @@ import Mainwebsite from "./Components/Mainwebsite.jsx";
 import Footer from "./Components/Footer.jsx";
 import Faq from "./Components/Faq.jsx";
 import Navbar from "./Components/Navbar.jsx";
-import Slogan from "./Components/Slogan.jsx";
+import Slogan from "./components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider.jsx";
 import Teamsection from "./Components/TeamSection.jsx";
