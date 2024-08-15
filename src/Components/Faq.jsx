@@ -34,18 +34,20 @@ const Faq = () => {
 
   return (
     <div className="relative min-h-screen bg-beige flex items-center justify-center px-4 sm:px-6 lg:px-8">
-      <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden z-0 place-content-center h-screen ">
+      <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden whitespace-nowrap z-0 place-content-center h-screen ">
         <div className="relative gap-5 bg-customColor flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
-          <div className="text-black text-6xl md:text-7xl lg:text-9xl font-main animate-marquee">
+          <div className="text-black text-9xl font-main animate-marquee">
+            <span>
             HORIZON&apos;24
-          </div>
-          <div className="text-black text-6xl md:text-7xl lg:text-9xl font-main animate-marquee ml-10 delay-1000">
+            </span>
+          <span className="ml-12 ">
             HORIZON&apos;24
-          </div>
+            </span>
         </div>
       </div>
+      </div>
       <div className="relative z-10 w-[350px] md:w-[650px] lg:w-[800px] bg-beige rounded-[30px] shadow-lg border-2 border-black">
-        <h2 className="bg-customGreen w-full text-2xl md:text-5xl font-poppins font-bold rounded-t-[30px] py-6 px-8 border-b border-black text-black">
+        <h2 className="bg-customGreen w-full text-4xl md:text-5xl font-poppins font-bold rounded-t-[30px] py-6 px-8 border-b border-black text-black">
           FAQs{" "}
         </h2>
         {faqs.map((faq, index) => (

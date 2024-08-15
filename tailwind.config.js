@@ -15,12 +15,12 @@ export default {
       },
       keyframes: {
         marquee: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-50%)" },
+          "0%": { transform: "translateX(87%)" },
+          "100%": { transform: "translateX(-100%)" },
         },
       },
       animation: {
-        marquee: "marquee 10s linear infinite ",
+        marquee: "marquee 14s linear infinite ",
       },
 
       colors: {
