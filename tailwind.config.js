@@ -15,8 +15,8 @@ export default {
       },
       keyframes: {
         marquee: {
-          "0%": { transform: "translateX(87%)" },
-          "100%": { transform: "translateX(-100%)" },
+          "0%": { transform: "translateX(70vw)" },
+          "100%": { transform: "translateX(-70vw)" },
         },
       },
       animation: {
