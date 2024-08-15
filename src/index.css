@@ -931,19 +931,19 @@ button {
         margin-right:4vw;
     }
 }
-@media (max-width: 640px) {
-    .responsive-image {
-      height:10vh;
-      margin-left: 2vw;
-      margin-right: 2vw;
-    }
-}
 @media (max-width: 768px) {
     .responsive-image{
         height:16vh;
-        margin-right: 2vw;
-        margin-left: 2vw;
+        margin-right: 4vw;
+        margin-left: 4vw;
     }
+}
+@media (max-width: 640px) {
+  .responsive-image {
+    height:10vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
 }
 @font-face{
     src:url("./fonts/ITC Tiffany Std Demi.otf") format("opentype");
