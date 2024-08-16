@@ -22,13 +22,13 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "300px", width: "350px", marginRight:"70px"},
+      size: { height: "300px", width: "350px", marginRight:"90px"},
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE",
       image: faculty,
-      size: { height: "300px", width: "300px",marginRight:"40px" },
+      size: { height: "300px", width: "300px",marginRight:"50px" },
     },
   ];
 
@@ -88,13 +88,13 @@ const Teamsection = () => {
       name: "GAGAN N BANGARAGIRI",
       role: "DESIGN HEAD",
       image: kk,
-      size: { height: "250px", width: "auto",marginLeft:"40px" },
+      size: { height: "250px", width: "auto",marginLeft:"35px" },
     },
     {
       name: "ARADHYE SWARUP",
       role: "MOTION GRAPHICS HEAD",
       image: aradhye,
-      size: { height: "250px", width: "auto",marginLeft:"30px" },
+      size: { height: "250px", width: "auto",marginLeft:"35px" },
     },
     {
       name: "ALI RASHID",
