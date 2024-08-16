@@ -184,7 +184,10 @@ const Teamsection = () => {
         <div>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6 justify-items-center">
             {organizers1.map((organizer, index) => (
-              <div key={index} className="text-center">
+              <div
+                key={index}
+                className="text-center flex flex-col items-center"
+              >
                 <img
                   src={organizer.image}
                   alt={organizer.name}
@@ -201,7 +204,10 @@ const Teamsection = () => {
 
           <div className="grid grid-cols-1 gap-3 md:grid-cols-4 md:gap-6 justify-items-center">
             {organizers2.map((organizer, index) => (
-              <div key={index} className="text-center">
+              <div
+                key={index}
+                className="text-center flex flex-col items-center "
+              >
                 <img
                   src={organizer.image}
                   alt={organizer.name}
