@@ -4,7 +4,7 @@ import bg from "../assets/TechnicaBg.png";
 const Technica = ({ children }) => {
   return (
     <>
-      <div className="hidden custom:flex shrink-1 h-[70vh] bg-technica border-t-2 border-black">
+      <div className="hidden custom:flex shrink-1 h-[80vh] bg-technica border-t-2 border-black">
         <div className="flex w-[38vw] border-r-2 border-black justify-center items-center">
           <div className="flex flex-shrink-0 w-clamp-30vw-30vw-32vw h-clamp-30vw-30vw-32vw">
             <img
