@@ -37,13 +37,13 @@ const Slider = ({ className = "" }) => {
       >
         <div  className="flex items-center justify-center h-lg lg:h-[32.6vh] md:h-[25vh] sm:h-[20vh] whitespace-nowrap animate-slide uppercase text-custom text-[76px] lg:text-[140px] md:text-[116px] sm:text-[96px] font-slogan">
           <img src={tech} className="responsive-image"></img>
-          <div className="pt-4 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
+          <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
           <img src={tech} className="responsive-image"></img>
-          <div className="pt-4 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div> 
+          <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div> 
           <img src={tech} className="responsive-image"></img>
-          <div className="pt-4 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
+          <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
           <img src={tech} className="responsive-image"></img>
-          <div className="pt-4 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
+          <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
         </div>
       </section>
     </div>
