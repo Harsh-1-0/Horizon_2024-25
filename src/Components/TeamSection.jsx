@@ -146,13 +146,13 @@ const Teamsection = () => {
           borderBottom: "2px solid black",
         }}
       >
-        <h2 className="text-[120px]  max-md:text-4xl font-bold p-5 font-[tiffany]">
+        <h2 className="text-[120px]  max-md:text-4xl font-bold p-5 font-main">
           OUR TEAM
         </h2>
       </div>
 
       <div className="mb-10 ">
-        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-[tiffany]">
+        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-main">
           FACULTY COORDINATORS
         </h3>
         <div className="flex max-md:flex-col justify-center gap-8">
@@ -178,7 +178,7 @@ const Teamsection = () => {
       </div>
 
       <div>
-        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-[tiffany]">
+        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-main">
           ORGANIZERS
         </h3>
         <div>
