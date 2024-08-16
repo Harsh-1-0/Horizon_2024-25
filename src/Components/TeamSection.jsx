@@ -132,7 +132,7 @@ const Teamsection = () => {
 
   return (
     <div
-      className="text-center w-[100vw]  text-black py-10"
+      className="text-center  text-black py-10"
       style={{ backgroundColor: "#FEFBEC" }}
     >
       <div
@@ -177,7 +177,6 @@ const Teamsection = () => {
         </div>
       </div>
 
-      {/* Organizers Section */}
       <div>
         <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-[tiffany]">
           ORGANIZERS
