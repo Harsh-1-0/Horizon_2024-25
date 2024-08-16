@@ -25,7 +25,7 @@ const Carousel = ({ cardData }) => {
       className=" justify-center text-black relative overflow-hidden flex"
     >
       <button
-        className="carousel-button bg-transparent max-md:top-[48vh] left absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] left-[2.8%]"
+        className="carousel-button bg-transparent left absolute top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] left-[2.8%]"
         onClick={goLeft}
       >
         <img src="/Group 35794.png" alt="<" />
@@ -47,7 +47,7 @@ const Carousel = ({ cardData }) => {
       </div>
 
       <button
-        className="carousel-button hover:shadow-sm focus-[#B5DDC2]  bg-transparent right absolute max-md:top-[48vh] top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] right-[2.8%]"
+        className="carousel-button hover:shadow-sm focus-[#B5DDC2]  bg-transparent right absolute  top-1/2 -translate-y-1/2 cursor-pointer w-[88px] h-[88px] z-[10] right-[2.8%]"
         onClick={goRight}
       >
         <img src="/Group 35793.png" alt=">" />

@@ -622,13 +622,13 @@ button {
       
       .carousel-button.left {
         
-        left: 5px;
+        left: -16px;
         
       }
       
       .carousel-button.right {
         
-        right: 5px;
+        right: -16px;
         
       }
 
