@@ -22,13 +22,13 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "300px", width: "350px", marginRight:"90px"},
+      size: { height: "300px", width: "350px" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE",
       image: faculty,
-      size: { height: "300px", width: "300px",marginRight:"50px" },
+      size: { height: "300px", width: "300px" },
     },
   ];
 
@@ -37,7 +37,7 @@ const Teamsection = () => {
       name: "ANANT AGRAWAL",
       role: "CHAIRPERSON",
       image: anant,
-      size: { height: "250px", width: "auto", marginLeft:"50px"},
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "VED KULKARNI",
@@ -88,13 +88,13 @@ const Teamsection = () => {
       name: "GAGAN N BANGARAGIRI",
       role: "DESIGN HEAD",
       image: kk,
-      size: { height: "250px", width: "auto",marginLeft:"35px" },
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ARADHYE SWARUP",
       role: "MOTION GRAPHICS HEAD",
       image: aradhye,
-      size: { height: "250px", width: "auto",marginLeft:"35px" },
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ALI RASHID",
@@ -106,7 +106,7 @@ const Teamsection = () => {
       name: "ASHWANI KUMAR MOUDGIL",
       role: "PROJECTS HEAD",
       image: akm,
-      size: { height: "250px", width: "auto",marginLeft:"30px" },
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "HARSH KUMAR SINHA",
@@ -118,7 +118,7 @@ const Teamsection = () => {
       name: "ANAGHHASHREE PERUMAL",
       role: "R&D HEAD",
       image: anaghha,
-      size: { height: "250px", width: "auto",marginLeft:"30px" },
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "HEMA HARINI G",
@@ -128,16 +128,15 @@ const Teamsection = () => {
     },
   ];
 
-  // Default image style for consistency
   const defaultImageStyle = { height: "271px", width: "219px" };
 
   return (
     <div
-      className="text-center text-black py-10"
+      className="text-center w-[100vw]  text-black py-10"
       style={{ backgroundColor: "#FEFBEC" }}
     >
       <div
-        className="header-box"
+        className=""
         style={{
           backgroundColor: "#b5ddc2",
           padding: "20px",
@@ -147,27 +146,32 @@ const Teamsection = () => {
           borderBottom: "2px solid black",
         }}
       >
-        <h2 className="text-[120px] font-bold leading-[144px] max-md:text-4xl font-bold p-5 font-[tiffany]">
+        <h2 className="text-[120px]  max-md:text-4xl font-bold p-5 font-[tiffany]">
           OUR TEAM
         </h2>
       </div>
 
-      {/* Faculty Coordinators Section */}
-      <div className="mb-10 ml-16">
-        <h3 className="text-6xl font-semibold mb-6 font-[tiffany]">
+      <div className="mb-10 ">
+        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-[tiffany]">
           FACULTY COORDINATORS
         </h3>
         <div className="flex max-md:flex-col justify-center gap-8">
-          {facultyCoordinators.map((coordinator, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={coordinator.image}
-                alt={coordinator.name}
-                className="mb-1" // Adjusted the margin-bottom to 1px
-                style={coordinator.size || defaultImageStyle}
-              />
-              <h4 className="text-xl font-semibold">{coordinator.name}</h4>
-              <p className="text-xl text-gray-600">{coordinator.role}</p>
+          {facultyCoordinators.map((organizer, index) => (
+            <div
+              key={index}
+              className="text-center flex flex-col items-center "
+            >
+              <div className="text-center">
+                <img
+                  src={organizer.image}
+                  alt={organizer.name}
+                  style={organizer.size} // Apply custom size if defined
+                />
+              </div>
+              <h4 className="text-xl font-semibold">{organizer.name}</h4>
+              <p className="text-xl max-md:text-lg text-gray-600 font-extralight">
+                {organizer.role}
+              </p>
             </div>
           ))}
         </div>
@@ -175,7 +179,7 @@ const Teamsection = () => {
 
       {/* Organizers Section */}
       <div>
-        <h3 className="text-6xl font-semibold mb-6 font-[tiffany]">
+        <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-[tiffany]">
           ORGANIZERS
         </h3>
         <div>
@@ -186,32 +190,10 @@ const Teamsection = () => {
                   src={organizer.image}
                   alt={organizer.name}
                   className="mb-2"
-                  style={organizer.size || defaultImageStyle}
+                  style={organizer.size || defaultImageStyle} // Apply custom size if defined
                 />
-                <h4
-                  className={`text-xl font-semibold ${
-                    organizer.name === "ANANT AGRAWAL"
-                      ? "ml-0 md:ml-0"
-                      : organizer.name === "VED KULKARNI"
-                      ? "ml-0 mr-0 text-center"
-                      : organizer.name === "JAHNAVI MAJUMDER"
-                      ? "ml-0 md:mr-36"
-                      : ""
-                  }`}
-                >
-                  {organizer.name}
-                </h4>
-                <p
-                  className={`text-xl text-gray-600 font-extralight${
-                    organizer.name === "ANANT AGRAWAL"
-                      ? "ml-0 md:ml-36"
-                      : organizer.name === "VED KULKARNI"
-                      ? "ml-0 mr-0 text-center"
-                      : organizer.name === "JAHNAVI MAJUMDER"
-                      ? "ml-0 md:mr-36"
-                      : ""
-                  }`}
-                >
+                <h4 className="text-xl font-semibold">{organizer.name}</h4>
+                <p className="text-xl text-gray-600 font-extralight">
                   {organizer.role}
                 </p>
               </div>
@@ -228,7 +210,9 @@ const Teamsection = () => {
                   style={organizer.size || defaultImageStyle} // Apply custom size if defined
                 />
                 <h4 className="text-xl font-semibold">{organizer.name}</h4>
-                <p className="text-xl text-gray-600 font-extralight">{organizer.role}</p>
+                <p className="text-xl text-gray-600 font-extralight">
+                  {organizer.role}
+                </p>
               </div>
             ))}
           </div>

@@ -54,10 +54,10 @@ function App() {
             }
           </Technica>
           <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
+          <Faq />
+          <Teamsection />
           <Mainwebsite />
 
-          <Teamsection />
-          <Faq />
           <Footer />
         </div>
       </div>
