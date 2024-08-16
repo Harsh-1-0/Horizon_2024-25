@@ -41,7 +41,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="text-black p-4 hover:bg-[#F8DBC9] relative bg-opacity-85 backdrop-blur z-5 w-[350 px] md:w-[470px] lg:w-[800px] bg-beige hover:bg-customPink hover:bg-opacity-85 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
+        <div className="text-black p-4 hover:bg-[#F8DBC9] relative bg-opacity-85 backdrop-blur z-5 w-[350 px] md:w-[450px] lg:w-[800px] bg-beige hover:bg-customPink hover:bg-opacity-85 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
           <h2
             style={{ letterSpacing: "1.5px" }}
             className="text-center w-full text-4xl md:text-6xl font-main font-bold rounded-t-[30px] py-12 px-8"
@@ -49,7 +49,7 @@ const About = () => {
             ABOUT US
           </h2>
           <p
-            /*style={{
+            style={{
               color: "#1E1E1E",
               textAlign: "justify",
               fontFamily: "'Open Sans', sans-serif",
@@ -58,8 +58,8 @@ const About = () => {
               fontWeight: "400",
               lineHeight: "normal",
               letterSpacing: "-0.32px",
-            }}*/
-            className="px-8 pt-0 pb-8 self-stretch h-[70.4 vh] lg:h-[44vh] relative text-[25px] md:text-[32px] tracking-[-0.01em] font-['Open_Sans'] text-justify flex items-center mq450:text-[19px] mq767:text-[26px]"
+            }}
+            className="px-8 pt-0 pb-8"
           >
             The Indian Society for Technical Education is a non-profit technical
             student chapter that plays a pivotal role in organizing a diverse
