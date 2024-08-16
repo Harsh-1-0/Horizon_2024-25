@@ -1,15 +1,17 @@
-import React from 'react';
+import React from "react";
 
 function MainWebsite() {
   return (
-    <div id="main-website" className="relative bg-[#B5DDC2] min-h-screen flex justify-center items-center">
+    <div
+      id="main-website"
+      className="relative bg-[#B5DDC2] min-h-screen flex justify-center items-center"
+    >
       {/* Iframe Container */}
       <iframe
         src="https://istevit.in/"
-        frameBorder="0"
         width="60%"
         height="600px"
-        className="border-[4px] border-transparent p-4 md:p-10 rounded-lg shadow-lg hover:shadow-[#27A5EF] hover:border-white hover:border-[#27A5EF] transition-all duration-150"
+        className="border-[4px] w-[350 px] md:w-[450px] lg:w-[800px] border-transparent p-4 md:p-10 rounded-lg shadow-lg hover:shadow-white hover:border-[#b5ddc2]  transition-all duration-150"
         title="ISTE VIT Website"
       ></iframe>
     </div>
