@@ -16,20 +16,17 @@ import tanisha from "../images/tanisha.png";
 import urza from "../images/urza.png";
 import ved from "../images/ved.png";
 
-
 const Teamsection = () => {
-  const tiffanyFontStyle = { fontFamily: "ITC Tiffany, sans-serif" };
   const facultyCoordinators = [
     {
-      
-      name: "DR. S SASIKUMAR ",
+      name: "DR. S SASIKUMAR",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
       size: { height: "300px", width: "300px" },
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
-      role: "EX-DIRECTOR OF STUDENT WELFARE ",
+      role: "EX-DIRECTOR OF STUDENT WELFARE",
       image: faculty,
       size: { height: "300px", width: "250px" },
     },
@@ -38,21 +35,21 @@ const Teamsection = () => {
   const organizers1 = [
     {
       name: "ANANT AGRAWAL",
-      role: "   CHAIRPERSON ",
+      role: "CHAIRPERSON",
       image: anant,
-      size: { height: "250px", width: "auto",marginLeft:"200px"},
+      size: { height: "250px", width: "auto", marginLeft:"30px"},
     },
     {
       name: "VED KULKARNI",
-      role: "VICE CHAIRPERSON ",
+      role: "VICE CHAIRPERSON",
       image: ved,
-      size: { height: "250px", width: "auto",marginLeft:"20px"},
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "JAHNAVI MAJUMDER",
-      role: "SECRETARY ",
+      role: "SECRETARY",
       image: jahnavi,
-      size: { height: "250px", width: "auto",marginRight:"210px"},
+      size: { height: "250px", width: "auto" },
     },
   ];
 
@@ -64,70 +61,70 @@ const Teamsection = () => {
       size: { height: "250px", width: "auto" },
     },
     {
-      name: "KHUSHI SIKARIA ",
+      name: "KHUSHI SIKARIA",
       role: "EVENTS HEAD",
       image: khushiboard,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "TANISHA PAHWA",
       role: "LOGISTICS HEAD",
       image: tanisha,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "SAMEER PALKAR",
       role: "PUBLICITY HEAD",
       image: sameer,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "URZA RAI",
       role: "OPERATIONS HEAD",
       image: urza,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "GAGAN N BANGARAGIRI",
       role: "DESIGN HEAD",
       image: kk,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ARADHYE SWARUP",
       role: "MOTION GRAPHICS HEAD",
       image: aradhye,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ALI RASHID",
       role: "TECHNICAL HEAD",
       image: ali,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ASHWANI KUMAR MOUDGIL",
       role: "PROJECTS HEAD",
       image: akm,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto",marginLeft:"30px" },
     },
     {
       name: "HARSH KUMAR SINHA",
       role: "INNOVATIONS HEAD",
       image: harsh,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
     {
       name: "ANAGHHASHREE PERUMAL",
       role: "R&D HEAD",
       image: anaghha,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto",marginLeft:"30px" },
     },
     {
       name: "HEMA HARINI G",
       role: "IOT HEAD",
       image: hema,
-      size: { height: "250px", width: "auto" }, // Custom size
+      size: { height: "250px", width: "auto" },
     },
   ];
 
@@ -146,7 +143,7 @@ const Teamsection = () => {
           padding: "20px",
           marginBottom: "40px",
           textAlign: "center",
-          border: "2px solid black", // Added black border
+          border: "2px solid black",
         }}
       >
         <h2 className="text-6xl max-md:text-4xl font-bold p-5 font-[tiffany]">
@@ -165,7 +162,7 @@ const Teamsection = () => {
               <img
                 src={coordinator.image}
                 alt={coordinator.name}
-                className="mx-auto mb-1px" // Reduced the margin-bottom to 1px
+                className="mb-1" // Adjusted the margin-bottom to 1px
                 style={coordinator.size || defaultImageStyle}
               />
               <h4 className="text-xl font-semibold">{coordinator.name}</h4>
@@ -174,55 +171,59 @@ const Teamsection = () => {
           ))}
         </div>
       </div>
+
+      {/* Organizers Section */}
       <div>
         <h3 className="text-4xl font-semibold mb-6 font-[tiffany]">
           ORGANIZERS
         </h3>
         <div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 justify-items-center">
-  {organizers1.map((organizer, index) => (
-    <div key={index} className="text-center">
-      <img
-        src={organizer.image}
-        alt={organizer.name}
-        className="mx-auto mb-2"
-        style={organizer.size || defaultImageStyle}
-      />
-      <h4
-        className="text-xl font-semibold"
-        style={{
-          marginLeft: organizer.name === "ANANT AGRAWAL" ? "200px" : 
-                      organizer.name === "VED KULKARNI" ? "0px" : 
-                      organizer.name === "JAHNAVI MAJUMDER" ? "0px" : "0px",
-          marginRight: organizer.name === " JAHNAVI MAJUMDER" ? "200px" : "0px",
-          textAlign: organizer.name === "VED KULKARNI" ? "center" : "left",
-        }}
-      >
-        {organizer.name}
-      </h4>
-      <p
-        className="text-xl text-gray-600"
-        style={{
-          marginLeft: organizer.name === "ANANT AGRAWAL" ? "200px" : 
-                      organizer.name === "VED KULKARNI" ? "0px" : 
-                      organizer.name === "  JAHNAVI MAJUMDER" ? "210px" : "0px",
-          marginRight: organizer.name === "JAHNAVI MAJUMDER" ? "0px" : "0px",
-          textAlign: organizer.name === "VED KULKARNI" ? "center" : "left",
-        }}
-      >
-        {organizer.role}
-      </p>
-    </div>
-  ))}
-</div>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6 justify-items-center">
+            {organizers1.map((organizer, index) => (
+              <div key={index} className="text-center">
+                <img
+                  src={organizer.image}
+                  alt={organizer.name}
+                  className="mb-2"
+                  style={organizer.size || defaultImageStyle}
+                />
+                <h4
+                  className={`text-xl font-semibold ${
+                    organizer.name === "ANANT AGRAWAL"
+                      ? "ml-0 md:ml-0"
+                      : organizer.name === "VED KULKARNI"
+                      ? "ml-0 mr-0 text-center"
+                      : organizer.name === "JAHNAVI MAJUMDER"
+                      ? "ml-0 md:mr-36"
+                      : ""
+                  }`}
+                >
+                  {organizer.name}
+                </h4>
+                <p
+                  className={`text-xl text-gray-600 ${
+                    organizer.name === "ANANT AGRAWAL"
+                      ? "ml-0 md:ml-36"
+                      : organizer.name === "VED KULKARNI"
+                      ? "ml-0 mr-0 text-center"
+                      : organizer.name === "JAHNAVI MAJUMDER"
+                      ? "ml-0 md:mr-36"
+                      : ""
+                  }`}
+                >
+                  {organizer.role}
+                </p>
+              </div>
+            ))}
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 justify-items-center">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-4 md:gap-6 justify-items-center">
             {organizers2.map((organizer, index) => (
               <div key={index} className="text-center">
                 <img
                   src={organizer.image}
                   alt={organizer.name}
-                  className="mx-auto mb-2"
+                  className="mb-2"
                   style={organizer.size || defaultImageStyle} // Apply custom size if defined
                 />
                 <h4 className="text-xl font-semibold">{organizer.name}</h4>
