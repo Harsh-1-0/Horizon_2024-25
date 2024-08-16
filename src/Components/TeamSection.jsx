@@ -22,13 +22,13 @@ const Teamsection = () => {
       name: "DR. S SASIKUMAR",
       role: "DIRECTOR OF POST-GRADUATE ADMISSIONS",
       image: facultys,
-      size: { height: "300px", width: "300px" },
+      size: { height: "300px", width: "350px", marginRight:"20px"},
     },
     {
       name: "DR. AMIT B MAHINDRAKAR",
       role: "EX-DIRECTOR OF STUDENT WELFARE",
       image: faculty,
-      size: { height: "300px", width: "250px" },
+      size: { height: "300px", width: "300px",marginRight:"10px" },
     },
   ];
 
@@ -143,17 +143,18 @@ const Teamsection = () => {
           padding: "20px",
           marginBottom: "40px",
           textAlign: "center",
-          border: "2px solid black",
+          borderTop: "2px solid black",
+          borderBottom: "2px solid black",
         }}
       >
-        <h2 className="text-6xl max-md:text-4xl font-bold p-5 font-[tiffany]">
+        <h2 className="text-[120px] font-bold leading-[144px] max-md:text-4xl font-bold p-5 font-[tiffany]">
           OUR TEAM
         </h2>
       </div>
 
       {/* Faculty Coordinators Section */}
-      <div className="mb-10">
-        <h3 className="text-4xl font-semibold mb-6 font-[tiffany]">
+      <div className="mb-10 ml-16">
+        <h3 className="text-6xl font-semibold mb-6 font-[tiffany]">
           FACULTY COORDINATORS
         </h3>
         <div className="flex max-md:flex-col justify-center gap-8">
@@ -174,7 +175,7 @@ const Teamsection = () => {
 
       {/* Organizers Section */}
       <div>
-        <h3 className="text-4xl font-semibold mb-6 font-[tiffany]">
+        <h3 className="text-6xl font-semibold mb-6 font-[tiffany]">
           ORGANIZERS
         </h3>
         <div>
@@ -201,7 +202,7 @@ const Teamsection = () => {
                   {organizer.name}
                 </h4>
                 <p
-                  className={`text-xl text-gray-600 ${
+                  className={`text-xl text-gray-600 font-extralight${
                     organizer.name === "ANANT AGRAWAL"
                       ? "ml-0 md:ml-36"
                       : organizer.name === "VED KULKARNI"
@@ -227,7 +228,7 @@ const Teamsection = () => {
                   style={organizer.size || defaultImageStyle} // Apply custom size if defined
                 />
                 <h4 className="text-xl font-semibold">{organizer.name}</h4>
-                <p className="text-xl text-gray-600">{organizer.role}</p>
+                <p className="text-xl text-gray-600 font-extralight">{organizer.role}</p>
               </div>
             ))}
           </div>
