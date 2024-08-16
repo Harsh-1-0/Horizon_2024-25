@@ -30,7 +30,7 @@ const Technica = ({ children }) => {
         </div>
         <div className="custom:hidden flex flex-shrink-0 mt-4 w-clamp-85vw-85vw-85vw h-clamp-40vw-55vw-60vw">
           <img
-            src="../src/assets/Rectangle%205668.png"
+            src={bg}
             alt="Background"
             className="w-full h-full object-cover rounded-[1.25rem] shadow-[4px_4px_0px_0px_#000] sm:rounded-[0.8rem]"
           />
