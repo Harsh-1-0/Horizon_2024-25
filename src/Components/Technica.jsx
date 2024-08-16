@@ -24,7 +24,7 @@ const Technica = ({ children }) => {
         </div>
       </div>
 
-      <div className="custom:hidden flex flex-col p-11 items-center justify-evenly shrink-1 h-[75vh] bg-technica border-t-2 border-black">
+      <div className="custom:hidden flex flex-col p-7 items-center justify-evenly shrink-1 h-[80vh] bg-technica border-t-2 border-black">
         <div className="flex flex-col items-start font-about font-normal text-2xl md:text-3xl sm:2xl space-y-4">
           {children}
         </div>

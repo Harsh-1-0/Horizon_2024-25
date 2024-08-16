@@ -53,7 +53,7 @@ function App() {
               </div>
             }
           </Technica>
-          <Slogan>INNOVATE | IDEATE | INSPIRE</Slogan>
+          <Slogan>INNOVATE <span className="text-2xl lg:text-5xl md:text-5xl mr-4 ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> IDEATE <span className="text-2xl lg:text-5xl md:text-5xl mr-4 ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> INSPIRE</Slogan>
           <Faq />
           <Teamsection />
           <Mainwebsite />
