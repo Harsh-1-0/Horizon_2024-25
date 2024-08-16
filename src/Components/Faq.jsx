@@ -91,7 +91,7 @@ const Faq = () => {
                 activeIndex === index ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <div className="text-slate-700 mt-2 text-sm md:text-base lg:text-lg ">
+              <div className="text-slate-700 mt-2 text-sm md:text-base lg:text-lg px-5 ">
                 <p>{faq.answer}</p>
               </div>
             </div>
