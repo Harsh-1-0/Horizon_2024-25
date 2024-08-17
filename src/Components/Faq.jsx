@@ -72,7 +72,7 @@ const Faq = () => {
                 {faq.question}
               </span>
               <svg
-                className={`w-6 h-6 transform transition-transform duration-300 ease-in-out  ${
+                className={`w-6 h-6 transform transition-transform duration-700 ease-in-out  ${
                   activeIndex === index ? "rotate-90" : "rotate-0"
                 }`}
                 fill="none"
@@ -89,7 +89,7 @@ const Faq = () => {
               </svg>
             </button>
             <div
-              className={`overflow-hidden transition-all duration-500 ease-in-out ${
+              className={`overflow-hidden transition-all duration-700 ease-in-out ${
                 activeIndex === index ? "max-h-screen" : "max-h-0"
               }`}
             >

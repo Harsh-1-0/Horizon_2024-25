@@ -14,11 +14,11 @@ import Intro from './Components/Intro.jsx';
 
 
 const cardData = [
-  { title: "Card 1", description: "This is card 1", image: "url1" },
-  { title: "Card 2", description: "This is card 1", image: "url1" },
-  { title: "Card 3", description: "This is card 2", image: "url2" },
-  { title: "Card 4", description: "This is card 3", image: "url3" },
-  { title: "Card 5", description: "This is card 3", image: "url3" },
+  { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "create.fig", description: "By Gagan N Bangaragiri", image: "url1", room:"SJT 614",date:"19/08/2024",time:"10:00AM - 1:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "calibrate.ai", description: "By Jahnavi Majumder", image: "url2" ,room:"TBA ",date:"TBA",time:"1TBA" ,location :"TBA "},
+  { title: "config.pcb", description: "By Anaghhashree Perumal and Hema Harini", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" },
+  {title: "web.rtc", description: "Harsh Kumar Sinha", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" }
 ];
 
 function App() {
@@ -68,19 +68,19 @@ function App() {
           <Slider />
           <Technica>
             <div>
-              One of the Biggest Technical Fests in India{" "}
-              <span className="bolder">is back in 2024</span>
+              Come together with the{" "}
+              <span className="bolder">nation's brightest minds{" "}</span>
+              for{" "}<span className="bolder">48 hours{" "}</span>of
             </div>
             {
               <div className="mt-2 sm:mt-5">
-                Sed vestibulum diam auctor, tincidunt{" "}
-                <span className="bolder">mi nec</span>
+                Relentless innovation and boundless creativity{" "}
               </div>
             }
           </Technica>
-          <Slogan>INNOVATE <span className="text-2xl lg:text-5xl md:text-5xl mr-4 ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> IDEATE <span className="text-2xl lg:text-5xl md:text-5xl mr-4 ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> INSPIRE</Slogan>
+          <Slogan>INNOVATE <span className="text-2xl lg:text-5xl md:text-5xl mr-2 sm:mr-2 lg:mr-4 ml-2 sm:ml-2 lg:ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> IDEATE <span className="text-2xl lg:text-5xl md:text-5xl mr-2 sm:mr-2 lg:mr-4 ml-2 sm:ml-2 lg:ml-4 mb-1 sm:mb-2 lg:mb-2">|</span> INSPIRE</Slogan>
           <Faq />
-          <Teamsection />
+          <Teamsection /> 
           <Mainwebsite />
 
           <Footer />

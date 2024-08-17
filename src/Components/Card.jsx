@@ -1,6 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
+
+const cardData = [
+  { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "create.fig", description: "By Gagan N Bangaragiri", image: "url1", room:"SJT 614",date:"19/08/2024",time:"10:00AM - 1:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "calibrate.ai", description: "By Jahnavi Majumder", image: "url2" ,room:"TBA ",date:"TBA",time:"1TBA" ,location :"TBA "},
+  { title: "config.pcb", description: "By Anaghhashree Perumal and Hema Harini", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" },
+  {title: "web.rtc", description: "Harsh Kumar Sinha", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" }
+];
+
 const Card = () => {
   return (
     <div className="w-[98vw] flex justify-center">
@@ -14,7 +23,7 @@ const Card = () => {
           />
 
           <div className="place absolute w-[156px] h-[51.16px] border border-black rounded-[25.58px] top-[37px] right-[44px] z-[20] bg-[#FEFBEC] flex justify-center items-center text-[22px] font-light leading-[30px] tracking-wide">
-            TT 503
+            room
           </div>
           <div className="dusra h-[280.9px] w-[280.9px] border border-black bg-[#F2C7AB] rounded-full relative top-[-140.45px] left-[85.42px] z-10"></div>
         </div>
@@ -24,10 +33,10 @@ const Card = () => {
 
           <div className="tbox flex flex-col ml-[37px] mt-[19px] w-[754px] absolute z-[2]">
             <p className="heading text-[48.17px] font-semibold leading-[72.26px] tracking-wide text-left">
-              Linux Bootcamp
+            title
             </p>
             <p className="subhead text-[32px] font-light leading-[48px] tracking-wide text-left font-poppins">
-              By App Kumar
+              description
             </p>
             <p className="para text-[18px] font-normal leading-[27px] tracking-wide text-justify font-poppins">
               Lorem ipsum dolor sit amet consec tetur adipisim labo riosam accus
@@ -47,7 +56,7 @@ const Card = () => {
                 alt=""
                 className="w-[25.1px] h-[26px]"
               />
-              <p>17/07/2024</p>
+              <p>date</p>
             </div>
           </div>
 
@@ -58,7 +67,7 @@ const Card = () => {
                 alt=""
                 className="w-[25px] h-[25px]"
               />
-              <p>10:00 AM - 3:00 PM</p>
+              <p>time</p>
             </div>
           </div>
 
@@ -69,7 +78,7 @@ const Card = () => {
                 alt=""
                 className="w-[22.85px] h-[29px]"
               />
-              <p>VOC Gallery</p>
+              <p>location</p>
             </div>
           </div>
         </div>
