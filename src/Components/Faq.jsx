@@ -19,12 +19,14 @@ const Faq = () => {
         "You can use Tailwind CSS with React by installing it via npm and configuring it with your project.",
     },
     {
-      question: "........",
-      answer: ".....",
+      question: "Biscuit ka matlab kya hota hai?",
+      answer:
+        "Bis - Vish  cuit - kut kut kar 'Jisme Vish koot koot kar bhara ho wahi hoti hai biscuit'",
     },
     {
-      question: ".........",
-      answer: "....",
+      question: "What software will be used for the config.pcb workshop ?",
+      answer:
+        "We'll be using KiCad software for the assembly and designing of the pcb.",
     },
   ];
 

@@ -6,11 +6,11 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black z-20 ">        
-    {/* changed z index  */}
+    <div className="w-full bg-[#B5DDC2]  border-b-2 border-black z-20 ">
+      {/* changed z index  */}
       <nav className="font-normal">
         <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
-          <div className="flex items-center w-full md:w-full">
+          <div className="flex items-center  w-full md:w-full">
             <svg
               width="48"
               height="51"
@@ -60,7 +60,7 @@ function App() {
           </button>
 
           <div
-            className={`w-fit md:w-auto flex-col md:flex-row md:flex md:items-start md:space-x-8 ${
+            className={`w-fit  md:w-auto flex-col md:flex-row md:flex md:items-start md:space-x-8 ${
               isMenuOpen ? "flex" : "hidden"
             }`}
           >
