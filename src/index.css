@@ -1023,7 +1023,23 @@ button {
 }
 @font-face {
   font-family: 'Gilroy';
-  src: url('/Gilroy-SemiBoldItalic.ttf') format('truetype');
+  src: url('./fonts/Gilroy-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
+}
+.font-Gilroy {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.shadow-custom {
+  padding: 10px 45px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  box-shadow: -4px 4px black;
+  border-radius: 0px;
+  margin-right: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }

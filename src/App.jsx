@@ -28,6 +28,8 @@ function App() {
 
   const handleFinish = () => {
     setIntroFinished(true);
+    document.body.style.overflowX = 'hidden';
+    document.body.style.overflowY = 'auto';
   };
 
   const handlePlayAudio = (shouldPlay) => {
@@ -38,13 +40,12 @@ function App() {
   };
 
   return (
-    <>
+    <div className="w-[98.9vw]">
     <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
     {!introFinished ? (
         <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
       ) : (
-        <>
-        <div className="w-[98.9vw]">
+    <div className="w-[98.9vw]">
       <div className="flex flex-col ">
         <div className="w-full">
           <Navbar />
@@ -86,9 +87,9 @@ function App() {
         </div>
       </div>
     </div>
-        </>
+
       )}
-    </>
+    </div>
   );
 }
 
