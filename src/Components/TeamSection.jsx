@@ -152,7 +152,7 @@ const Teamsection = () => {
         </h2>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-10" style="margin-bottom:50px;">
         <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-main">
           FACULTY COORDINATORS
         </h3>
