@@ -141,12 +141,7 @@ function Footer() {
     </div>
     <div className="flex flex-col w-full mt-4">
       <div className="mb-4">
-        <span
-          className="underline cursor-pointer text-xl"
-          onClick={handleScrollToMainWebsite}
-        >
-          Visit ISTE main website
-        </span>
+        
       </div>
       <div className="flex justify-between items-center w-full">
         <div className="flex flex-wrap text-xl">
