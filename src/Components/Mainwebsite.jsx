@@ -4,7 +4,7 @@ function MainWebsite() {
   return (
     <div
       id="main-website"
-      className="relative bg-[#B5DDC2] min-h-screen flex justify-center items-center"
+      className="relative border-b-2 border-t-2 border-black bg-[#B5DDC2] min-h-screen flex justify-center items-center"
     >
       {/* Iframe Container */}
       <iframe

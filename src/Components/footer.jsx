@@ -15,6 +15,8 @@ function Footer() {
   };
 
   return (
+    <div>
+      <div className="h-20  bg-[#FEFBEC]"></div>
     <footer className="font-poppins font-[400] w-full md:pt-8 pt-4 px-4 bg-[#B5DDC2] text-black border-t-2 border-black flex flex-col">
       {/* For small screens */}
       <div className="block md:hidden relative">
@@ -104,35 +106,35 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaXTwitter className="mr-4 text-2xl text-black " />
+            <FaXTwitter className="mr-4 text-3xl text-black " />
           </a>
           <a
             href="https://github.com/ISTE-VIT"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IoLogoGithub className="mr-4 text-2xl text-black" />
+            <IoLogoGithub className="mr-4 text-3xl text-black" />
           </a>
           <a
             href="https://www.youtube.com/@ISTEVITVellore"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaYoutube className="mr-4 text-2xl text-black" />
+            <FaYoutube className="mr-4 text-3xl text-black" />
           </a>
           <a
             href="https://www.linkedin.com/company/indian-society-for-technical-education/mycompany/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="mr-4 text-2xl text-black" />
+            <FaLinkedin className="mr-4 text-3xl text-black" />
           </a>
           <a
             href="https://www.instagram.com/iste_vit_vellore/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillInstagram className="text-2xl text-black" />
+            <AiFillInstagram className="text-3xl text-black" />
           </a>
         </div>
       </div>
@@ -170,6 +172,7 @@ function Footer() {
     <div className="absolute bottom-0 left-0 right-0 bg-black h-px"></div>
   </div>
 </footer>
+</div>
   );
 }
 
