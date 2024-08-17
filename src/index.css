@@ -1021,3 +1021,9 @@ button {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
 }
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Gilroy-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
