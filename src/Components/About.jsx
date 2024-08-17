@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       {/* Mobile View */}
-      <div className="block lg:hidden">
+      <div className="block lg:hidden p-4">
         <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden z-0 place-content-center h-screen">
           <div className="relative bg-customGreen flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
             <div className="text-black text-9xl font-main flex items-center animate-marquee">
@@ -41,8 +41,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="text-black p-4 hover:bg-[#F8DBC9] relative bg-opacity-85 backdrop-blur z-5 w-[95%] mx-auto bg-beige hover:bg-customPink hover:bg-opacity-85 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
-          <h2 style={{ letterSpacing: "1.5px" }} className="text-center w-full text-3xl font-main font-bold rounded-t-[30px] py-8 px-4">
+        <div className="text-black p-4 hover:bg-[#F8DBC9] relative bg-opacity-85 backdrop-blur z-5 w-[100%] mx-auto bg-beige hover:bg-customPink hover:bg-opacity-85 transition-all duration-500 rounded-[30px] shadow-lg border-2 border-black">
+          <h2 style={{ letterSpacing: "1.5px" }} className="text-center w-full text-3xl font-main font-bold rounded-t-[30px] py-8 px-4 ">
             ABOUT US
           </h2>
           <p style={{ color: "#1E1E1E", textAlign: "justify", fontFamily: "'Open Sans', sans-serif", fontSize: "24px", fontStyle: "normal", fontWeight: "400", lineHeight: "normal", letterSpacing: "-0.32px" }} className="px-4 pt-0 pb-8">
