@@ -11,7 +11,8 @@ import Slider from "./Components/Slider.jsx";
 import Teamsection from "./Components/TeamSection.jsx";
 import React, { useState, useRef } from 'react';
 import Intro from './Components/Intro.jsx';
-
+import muteIcon from './images/mute.png';
+import unmuteIcon from './images/unmute.png';
 
 const cardData = [
   { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
@@ -24,6 +25,7 @@ const cardData = [
 function App() {
   const [introFinished, setIntroFinished] = useState(false);
   const [playAudio, setPlayAudio] = useState(false);
+  const [isMuted, setIsMuted] = useState(false);
   const audioRef = useRef(null);
 
   const handleFinish = () => {
@@ -36,6 +38,13 @@ function App() {
     setPlayAudio(shouldPlay);
     if (shouldPlay && audioRef.current) {
       audioRef.current.play();
+    }
+  };
+
+  const toggleMute = () => {
+    if (audioRef.current) {
+      audioRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
     }
   };
 
@@ -86,6 +95,31 @@ function App() {
           <Footer />
         </div>
       </div>
+
+      {playAudio && (
+            <button
+              onClick={toggleMute}
+              style={{
+                position: 'fixed',
+                right: '20px',
+                bottom: '20px',
+                border: 'none',
+                cursor: 'pointer',
+                backgroundColor: '#F2C6AB',
+                boxShadow: '3.5px 3.5px black',
+                borderRadius: '10px',
+                height: '50px',
+                width: '50px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '0',
+              }}
+            >
+              <img src={isMuted ? muteIcon : unmuteIcon} alt="Mute/Unmute" style={{objectFit: 'contain',height: '30px',width: '30px',}}/>
+            </button>
+          )}
+
     </div>
 
       )}
