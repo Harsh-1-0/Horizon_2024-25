@@ -132,14 +132,14 @@ const Teamsection = () => {
 
   return (
     <div
-      className="text-center text-black py-10"
+      className="text-center  text-black py-10"
       style={{ backgroundColor: "#FEFBEC" }}
     >
       <div
-        className="flex justify-center items-center max-md:h-20"
+        className=""
         style={{
           backgroundColor: "#b5ddc2",
-          padding: "0px",
+          padding: "20px",
           marginBottom: "40px",
           textAlign: "center",
           borderTop: "2px solid black",
@@ -147,12 +147,12 @@ const Teamsection = () => {
           height: "162px", 
         }}
       >
-        <h2 className="text-[120px] md:text-[100px] max-md:text-5xl max-md:leading-tight font-bold p-0 font-main">
+        <h2 className="text-[120px]  max-md:text-4xl font-bold p-5 font-main">
           OUR TEAM
         </h2>
       </div>
 
-      <div className="mb-10" style="margin-bottom:50px;">
+      <div className="mb-10 ">
         <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-main">
           FACULTY COORDINATORS
         </h3>
@@ -160,7 +160,7 @@ const Teamsection = () => {
           {facultyCoordinators.map((organizer, index) => (
             <div
               key={index}
-              className="text-center flex flex-col items-center"
+              className="text-center flex flex-col items-center "
             >
               <div className="text-center">
                 <img
@@ -179,7 +179,7 @@ const Teamsection = () => {
       </div>
 
       <div>
-        <h3 className="text-6xl max-md:text-2xl font-semibold mb-10 font-main">
+      <h3 className="text-6xl max-md:text-2xl font-semibold mb-6 font-main">
           ORGANIZERS
         </h3>
         <div>
@@ -193,7 +193,7 @@ const Teamsection = () => {
                   src={organizer.image}
                   alt={organizer.name}
                   className="mb-2"
-                  style={organizer.size || defaultImageStyle} 
+                  style={organizer.size || defaultImageStyle} // Apply custom size if defined
                 />
                 <h4 className="text-xl font-semibold">{organizer.name}</h4>
                 <p className="text-xl text-gray-600 font-extralight">
@@ -207,7 +207,7 @@ const Teamsection = () => {
             {organizers2.map((organizer, index) => (
               <div
                 key={index}
-                className="text-center flex flex-col items-center"
+                className="text-center flex flex-col items-center "
               >
                 <img
                   src={organizer.image}
