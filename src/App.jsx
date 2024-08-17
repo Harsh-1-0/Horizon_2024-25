@@ -9,6 +9,9 @@ import Slogan from "./Components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider.jsx";
 import Teamsection from "./Components/TeamSection.jsx";
+import React, { useState, useRef } from 'react';
+import Intro from './Components/Intro.jsx';
+
 
 const cardData = [
   { title: "Card 1", description: "This is card 1", image: "url1" },
@@ -19,8 +22,29 @@ const cardData = [
 ];
 
 function App() {
+  const [introFinished, setIntroFinished] = useState(false);
+  const [playAudio, setPlayAudio] = useState(false);
+  const audioRef = useRef(null);
+
+  const handleFinish = () => {
+    setIntroFinished(true);
+  };
+
+  const handlePlayAudio = (shouldPlay) => {
+    setPlayAudio(shouldPlay);
+    if (shouldPlay && audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
   return (
-    <div className="w-[98.9vw]">
+    <>
+    <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
+    {!introFinished ? (
+        <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
+      ) : (
+        <>
+        <div className="w-[98.9vw]">
       <div className="flex flex-col ">
         <div className="w-full">
           <Navbar />
@@ -62,6 +86,9 @@ function App() {
         </div>
       </div>
     </div>
+        </>
+      )}
+    </>
   );
 }
 

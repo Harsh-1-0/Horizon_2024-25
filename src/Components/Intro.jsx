@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import './index.css';
+import "../index.css";
 
 function Intro({ onFinish, onPlayAudio }) {
   const [playGif, setPlayGif] = useState(false);
