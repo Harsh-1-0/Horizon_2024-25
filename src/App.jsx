@@ -69,7 +69,7 @@ function App() {
           <Technica>
             <div>
               Come together with the{" "}
-              <span className="bolder">nation's brightest minds{" "}</span>
+              <span className="bolder">Nation's brightest minds{" "}</span>
               for{" "}<span className="bolder">48 hours{" "}</span>of
             </div>
             {
