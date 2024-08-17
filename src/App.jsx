@@ -11,11 +11,12 @@ import Slider from "./Components/Slider.jsx";
 import Teamsection from "./Components/TeamSection.jsx";
 
 const cardData = [
-  { title: "Card 1", description: "This is card 1", image: "url1" },
-  { title: "Card 2", description: "This is card 1", image: "url1" },
-  { title: "Card 3", description: "This is card 2", image: "url2" },
-  { title: "Card 4", description: "This is card 3", image: "url3" },
-  { title: "Card 5", description: "This is card 3", image: "url3" },
+  { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "create.fig", description: "By Gagan N Bangaragiri", image: "url1", room:"SJT 614",date:"19/08/2024",time:"10:00AM - 1:00 PM" ,location :"Sarojini Naidu Gallery" },
+  { title: "calibrate.ai", description: "By Jahnavi Majumder", image: "url2" ,room:"TBA ",date:"TBA",time:"1TBA" ,location :"TBA "},
+  { title: "config.pcb", description: "By Anaghhashree Perumal and Hema Harini", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" },
+  { title: "Card 5", description: "This is card 3", image: "url",room:"TBA",date:"TBA",time:"TBA" ,location :"TBA"  },
+  {title: "web.rtc", description: "Harsh Kumar Sinha", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" }
 ];
 
 function App() {
@@ -43,13 +44,13 @@ function App() {
           <Slider />
           <Technica>
             <div>
-              One of the Biggest Technical Fests in India{" "}
-              <span className="bolder">is back in 2024</span>
+              Come together with the {" "}
+              <span className="bolder">nations's brightest minds for </span>
             </div>
             {
               <div className="mt-2 sm:mt-5">
-                Sed vestibulum diam auctor, tincidunt{" "}
-                <span className="bolder">mi nec</span>
+                <span className="bolder">48 hours</span>
+                {" of relentless innovation and creativity"}
               </div>
             }
           </Technica>

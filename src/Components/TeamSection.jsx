@@ -41,7 +41,7 @@ const Teamsection = () => {
     },
     {
       name: "VED KULKARNI",
-      role: "VICE CHAIRPERSON",
+      role: "VICE-CHAIRPERSON",
       image: ved,
       size: { height: "250px", width: "auto" },
     },
