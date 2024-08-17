@@ -147,7 +147,7 @@ const Teamsection = () => {
           height: "162px", 
         }}
       >
-        <h2 className="text-[120px] md:text-[100px] max-md:text-5xl max-md:leading-tight font-bold p-0 font-main">
+        <h2 className="text-[120px] md:text-[100px] max-md:text-5xl max-md:leading-tight font-bold p-0 font-main max-md:flex max-md:justify-center max-md:items-center max-md:h-full">
           OUR TEAM
         </h2>
       </div>
