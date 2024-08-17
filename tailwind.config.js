@@ -50,6 +50,9 @@ export default {
       borderRadius: {
         tiny: "1rem",
       },
+      borderWidth:{
+        '1.5':'1.5px'
+      },
     },
   },
   plugins: [],
