@@ -42,14 +42,14 @@ function App() {
           </div>
           <Slider />
           <Technica>
-            <div>
-              Come together with the {" "}
-              <span className="bolder">nations's brightest minds for </span>
+          <div>
+              Come together with the{" "}
+              <span className="bolder">nation's brightest minds{" "}</span>
+              for{" "}<span className="bolder">48 hours{" "}</span>of
             </div>
             {
               <div className="mt-2 sm:mt-5">
-                <span className="bolder">48 hours</span>
-                {" of relentless innovation and creativity"}
+                Relentless innovation and boundless creativity{" "}
               </div>
             }
           </Technica>

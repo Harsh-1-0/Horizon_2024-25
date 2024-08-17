@@ -44,6 +44,7 @@ const Slider = ({ className = "" }) => {
           <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
           <img src={tech} className="responsive-image"></img>
           <div className="pt-5 lg:pt-0 md:pt-0 sm:pt-0">TECHNICA</div>
+          <img src={tech} className="responsive-image"></img>
         </div>
       </section>
     </div>

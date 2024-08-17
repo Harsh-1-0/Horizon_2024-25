@@ -9,8 +9,8 @@ const Slogan = ({ children }) => {
         </div>
     </div>
 
-    <div className="custom:hidden flex max-w-full h-[8vh] p-[0.768vw] justify-center items-center flex-shrink-1 border-t-2 border-b-2 border-black bg-custom overflow-hidden">
-      <div className="flex max-w-full h-[1.3vh] pt-3 sm:pt-0 md:pt-0 lg:pt-0 text-xl sm:text-4xl font-slogan shrink-1 text-center items-center justify-center uppercase leading-normal tracking-normal">
+    <div className="custom:hidden flex max-w-full h-[7vh] p-[0.768vw] justify-center items-center flex-shrink-1 border-t-2 border-b-2 border-black bg-custom overflow-hidden">
+      <div className="flex max-w-full h-[2vh] sm:pt-0 md:pt-0 lg:pt-0 text-xl sm:text-4xl font-slogan shrink-1 text-center items-center justify-center uppercase leading-normal tracking-normal">
           {children}
       </div>
     </div>
