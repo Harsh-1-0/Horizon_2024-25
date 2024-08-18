@@ -3,6 +3,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@media (max-height: 500px) {
+  .max-h-500px-mt-4 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
 
 
 

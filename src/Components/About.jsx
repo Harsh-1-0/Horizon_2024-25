@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" className="relative min-h-screen bg-beige flex items-center justify-center px-8 sm:px-6 lg:px-8">
       {/* Desktop View */}
-      <div className="hidden lg:block ">
+      <div className="hidden lg:block max-h-500px-mt-4">
         <div className="absolute w-full top-0 left-0 flex items-center justify-center overflow-hidden z-0 place-content-center h-screen">
           <div className="relative bg-customGreen flex items-center px-2 py-1 sm:px-4 sm:py-2 border-t-2 border-b-2 border-black">
             <div className="text-black text-9xl font-main flex items-center animate-marquee">

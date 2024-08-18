@@ -8,7 +8,7 @@ function Home() {
           <p className=" font-main text-[13.6vw]"> HORIZON&apos;24</p>
         </div>
         <div className="flex  w-full bg-[#b5ddc2] items-center h-1/4 border-t-black border-b-black border-2 ">
-          <div className="w-3/5 px-12 block text-5xl font-poppins ">
+        <div className="w-3/5 px-12 block text-5xl font-poppins -mt-16 max-h-500px-mt-4">
             <span className="-pt-8 text-5xl font-poppins ">One of the Biggest Technical</span>
             <span className="block text-5xl  font-poppins pt-8">
               Fests in India
