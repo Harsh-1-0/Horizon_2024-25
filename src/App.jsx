@@ -90,20 +90,9 @@ function App() {
   };
 
   return (
-<<<<<<< HEAD
     <div className="w-[98.9vw]"> 
     <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
     {!introFinished ? (
-=======
-    <div className="w-screen">
-      <audio
-        ref={audioRef}
-        loop
-        preload="auto"
-        src="/loading intro.mp3"
-      ></audio>
-      {!introFinished ? (
->>>>>>> 25b4e56e62b515e890c1bc860f5fe207c8b5a87c
         <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
       ) : (
         <div className="">
