@@ -33,7 +33,7 @@ const Card = () => {
 
           <div className="tbox flex flex-col ml-[37px] mt-[19px] w-[754px] absolute z-[2]">
             <p className="heading text-[48.17px] font-semibold leading-[72.26px] tracking-wide text-left">
-            title
+              title
             </p>
             <p className="subhead text-[32px] font-light leading-[48px] tracking-wide text-left font-poppins">
               description

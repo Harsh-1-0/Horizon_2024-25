@@ -61,11 +61,11 @@ function Home() {
               </span>
               <br />
             </div>
-            <div className="flex flex-col justify-evenly items-center -mt-24">
+            <div className="flex flex-col justify-evenly items-center -mt-24 md:-mt-2">
               <img src="/homepage.png" alt="img" className="h-64 w-80" />
               <button
                 type="submit"
-                className="bg-[#F2C6AB]  text-[#1E1E1E] mt-12 border-black border-1 rounded-xl font-normal md:mt-16 w-3/10 -py-4"
+                className="bg-[#F2C6AB]  text-[#1E1E1E] mt-12 border-black border-1 rounded-xl font-normal md:mt-8 w-3/10 -py-4"
               >
                 Register Now
               </button>
