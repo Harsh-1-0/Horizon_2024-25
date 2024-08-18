@@ -8,7 +8,7 @@ function Home() {
           <p className=" font-main text-[13.6vw]"> HORIZON&apos;24</p>
         </div>
         <div className="flex  w-full bg-[#b5ddc2] items-center h-1/4 border-t-black border-b-black border-2 ">
-          <div className="w-3/5 px-12 block text-5xl font-poppins -mt-16">
+          <div className="w-3/5 px-12 block text-5xl font-poppins ">
             <span className="-pt-8 text-5xl font-poppins ">One of the Biggest Technical</span>
             <span className="block text-5xl  font-poppins pt-8">
               Fests in India
@@ -79,12 +79,4 @@ function Home() {
 
 export default Home;
 
-<div className="flex flex-col items-center gap-28">
-  <img src="/homepage.png" />
-  <button
-    type="submit"
-    className="bg-[#F2C6AB] px-2 py-2 mt-8 border-black border-2 rounded-lg text-3xl md:mt-16"
-  >
-    Register Now
-  </button>
-</div>;
+
