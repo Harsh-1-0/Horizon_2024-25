@@ -21,7 +21,7 @@ function Home() {
             
             <button
               type="submit"
-              className="bg-[#F2C6AB] px-6 border-black border-2 rounded-full text-2xl font-normal"
+              className="bg-[#F2C6AB] p-4 border-black border-2 rounded-full text-2xl font-normal"
             >
               Register Now
             </button>
@@ -65,7 +65,7 @@ function Home() {
               <img src="/homepage.png" alt="img" className="h-64 w-80" />
               <button
                 type="submit"
-                className="bg-[#F2C6AB]  text-[#1E1E1E] mt-12 border-black border-1 rounded-xl font-normal md:mt-8 w-3/10 -py-4"
+                className="bg-[#F2C6AB]  text-[#1E1E1E] mt-12 border-black border-2 rounded-xl font-normal md:mt-8 w-3/10 p-2"
               >
                 Register Now
               </button>

@@ -10,6 +10,7 @@ function App() {
       {/* changed z index  */}
       <nav className="font-normal">
         <div className="w-full flex flex-col md:flex-row md:justify-between items-center p-4">
+            {/* horizon logo */}
           <div className="flex items-center  w-full md:w-full">
             <svg
               width="48"
@@ -36,7 +37,8 @@ function App() {
               />
             </svg>
             {/* <div className="text-black px-3 text-2xl font-bold font">HORIZON</div> */}
-            <div className="p-4">
+            {/* horizon    */}
+            <div className="p-4 ">
               <svg
                 width="120"
                 height="22"
@@ -58,13 +60,13 @@ function App() {
           >
             {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
-
+          {/* about logo */}
           <div
             className={`w-fit  md:w-auto flex-col md:flex-row md:flex md:items-start md:space-x-8 ${
               isMenuOpen ? "flex" : "hidden"
             }`}
           >
-            <ul className="flex flex-col md:flex-row md:space-x-8 md:items-center">
+            <ul className="flex flex-col items-center md:flex-row md:space-x-8 md:items-center">
               <li>
                 {/* <button className="bg-[#B5DDC2] text-black p-2 text-xl">About</button> */}
                 <button
@@ -75,6 +77,7 @@ function App() {
                   }
                   className="bg-[#B5DDC2]"
                 >
+                  {/* events logo */}
                   <svg
                     width="61"
                     height="16"
