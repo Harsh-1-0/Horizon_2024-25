@@ -9,7 +9,7 @@ import Slogan from "./Components/Slogan.jsx";
 import Technica from "./Components/Technica.jsx";
 import Slider from "./Components/Slider.jsx";
 import Teamsection from "./Components/TeamSection.jsx";
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import Intro from "./Components/Intro.jsx";
 import muteIcon from "./images/mute.png";
 import unmuteIcon from "./images/unmute.png";
@@ -91,7 +91,6 @@ function App() {
 
   return (
     <div className="w-screen">
-      {/* style={{ cursor: 'url("./images/cursor.png"), auto' }} */}
       <audio
         ref={audioRef}
         loop
