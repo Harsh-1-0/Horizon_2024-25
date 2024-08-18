@@ -203,7 +203,9 @@ const Teamsection = () => {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-4 md:gap-6 justify-items-center">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-4 md:gap-6 justify-items-center"
+            style={{ marginBottom: "150px" }} // Added margin to increase space
+            >
             {organizers2.map((organizer, index) => (
               <div
                 key={index}
