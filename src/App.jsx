@@ -101,8 +101,8 @@ function App() {
               onClick={toggleMute}
               style={{
                 position: 'fixed',
-                right: '20px',
-                bottom: '20px',
+                right: '40px',
+                bottom: '40px',
                 border: 'none',
                 cursor: 'pointer',
                 backgroundColor: '#F2C6AB',
@@ -114,9 +114,10 @@ function App() {
                 alignItems: 'center',
                 justifyContent: 'center',
                 padding: '0',
+                zIndex: '1000',
               }}
             >
-              <img src={isMuted ? muteIcon : unmuteIcon} alt="Mute/Unmute" style={{objectFit: 'contain',height: '30px',width: '30px',}}/>
+              <img src={isMuted ? unmuteIcon : muteIcon} alt="Mute/Unmute" style={{objectFit: 'contain',height: '30px',width: '30px',}}/>
             </button>
           )}
 
