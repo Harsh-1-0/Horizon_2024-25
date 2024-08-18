@@ -12,7 +12,11 @@
   }
 }
 
-html{
+html,body,*{
+  cursor: url('./images/cursor.webp'), none;
+}
+
+div, span, section, footer, header, article, aside, nav, button {
   cursor: url('./images/cursor.webp'), none;
 }
 
