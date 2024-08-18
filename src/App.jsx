@@ -13,6 +13,7 @@ import React, { useState, useRef } from 'react';
 import Intro from './Components/Intro.jsx';
 import muteIcon from './images/mute.png';
 import unmuteIcon from './images/unmute.png';
+import './App.css';
 
 const cardData = [
   { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
@@ -104,7 +105,6 @@ function App() {
                 right: '40px',
                 bottom: '40px',
                 border: 'none',
-                cursor: 'pointer',
                 backgroundColor: '#F2C6AB',
                 boxShadow: '3.5px 3.5px black',
                 borderRadius: '10px',

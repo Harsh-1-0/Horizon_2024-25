@@ -11,3 +11,11 @@
     src: url(https://db.onlinewebfonts.com/c/9b09d0e485b588d7a58a0202ceb8158d?family=ITC+Tiffany+W01+Regular) format('woff2');
   }
 }
+
+body, html, * {
+  cursor: url('./images/cursor.png'), auto;
+}
+
+div, span, section, footer, header, article, aside, nav, button {
+  cursor: url('./images/cursor.png'), auto;
+}
