@@ -12,6 +12,7 @@ export default {
         tiffany: ["ITC Tiffany Std Demi", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         itc: ["ITC", "sans-serif"],
+        'open-sans': ['Open Sans', 'sans-serif'],
       },
       keyframes: {
         marquee: {
