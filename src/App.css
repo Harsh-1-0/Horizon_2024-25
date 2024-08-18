@@ -12,10 +12,7 @@
   }
 }
 
-body, html, * {
-  cursor: url('./images/cursor.png'), auto;
+html{
+  cursor: url('./images/cursor.webp'), none;
 }
 
-div, span, section, footer, header, article, aside, nav, button {
-  cursor: url('./images/cursor.png'), auto;
-}

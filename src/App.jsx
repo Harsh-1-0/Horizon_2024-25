@@ -33,7 +33,8 @@ function App() {
     setIntroFinished(true);
     document.body.style.overflowX = 'hidden';
     document.body.style.overflowY = 'auto';
-  };
+    
+};
 
   const handlePlayAudio = (shouldPlay) => {
     setPlayAudio(shouldPlay);
@@ -50,7 +51,8 @@ function App() {
   };
 
   return (
-    <div className="w-[98.9vw]">
+    <div className="w-[98.9vw]"> 
+    {/* style={{ cursor: 'url("./images/cursor.png"), auto' }} */}
     <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
     {!introFinished ? (
         <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
