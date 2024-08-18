@@ -1,13 +1,52 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
-
-
+import React from "react";
+import "./cards.css"
 const cardData = [
-  { title: "build.apk", description: "By Ashwani Kumar Moudgil", image: "url1" ,room:"SJT 614",date:"08/08/2024",time:"10:00AM - 6:00 PM" ,location :"Sarojini Naidu Gallery" },
-  { title: "create.fig", description: "By Gagan N Bangaragiri", image: "url1", room:"SJT 614",date:"19/08/2024",time:"10:00AM - 1:00 PM" ,location :"Sarojini Naidu Gallery" },
-  { title: "calibrate.ai", description: "By Jahnavi Majumder", image: "url2" ,room:"TBA ",date:"TBA",time:"1TBA" ,location :"TBA "},
-  { title: "config.pcb", description: "By Anaghhashree Perumal and Hema Harini", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" },
-  {title: "web.rtc", description: "Harsh Kumar Sinha", image: "url3" ,room:"TBA",date:"TBA",time:"TBA" ,location :"TBA" }
+  {
+    title: "build.apk",
+    description: "By Ashwani Kumar Moudgil",
+    image: "url1",
+    room: "SJT 614",
+    date: "08/08/2024",
+    time: "10:00AM - 6:00 PM",
+    location: "Sarojini Naidu Gallery",
+  },
+  {
+    title: "create.fig",
+    description: "By Gagan N Bangaragiri",
+    image: "url1",
+    room: "SJT 614",
+    date: "19/08/2024",
+    time: "10:00AM - 1:00 PM",
+    location: "Sarojini Naidu Gallery",
+  },
+  {
+    title: "calibrate.ai",
+    description: "By Jahnavi Majumder",
+    image: "url2",
+    room: "TBA ",
+    date: "TBA",
+    time: "1TBA",
+    location: "TBA ",
+  },
+  {
+    title: "config.pcb",
+    description: "By Anaghhashree Perumal and Hema Harini",
+    image: "url3",
+    room: "TBA",
+    date: "TBA",
+    time: "TBA",
+    location: "TBA",
+  },
+  {
+    title: "web.rtc",
+    description: "Harsh Kumar Sinha",
+    image: "url3",
+    room: "TBA",
+    date: "TBA",
+    time: "TBA",
+    location: "TBA",
+  },
 ];
 
 const Card = () => {
@@ -85,6 +124,6 @@ const Card = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Card
+export default Card;
