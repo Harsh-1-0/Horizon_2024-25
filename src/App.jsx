@@ -1,7 +1,7 @@
 import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Carousel from "./Components/Carousel.jsx";
-import Mainwebsite from "./Components/Mainwebsite.jsx";
+// import Mainwebsite from "./Components/Mainwebsite.jsx";
 import Footer from "./Components/footer.jsx";
 import Faq from "./Components/Faq.jsx";
 import Navbar from "./Components/Navbar.jsx";
@@ -13,62 +13,74 @@ import { useState, useRef } from "react";
 import Intro from "./Components/Intro.jsx";
 import muteIcon from "./images/mute.png";
 import unmuteIcon from "./images/unmute.png";
+import figma from "./images/figma.png";
+import kit from "./images/kit.png";
+import WebRTC from "./images/webrtc.png";
+import tensor from "./images/tensorflow.png";
+import kotline from "./images/kotline.png";
+
 import "./App.css";
 
 const cardData = [
   {
     title: "build.apk",
     description: "By Ashwani Kumar Moudgil",
-    image: "url1",
+    image: kotline,
     room: "SJT 614",
     date: "08/08/2024",
     time: "10:00AM - 6:00 PM",
     location: "Sarojini Naidu Gallery",
-    details: "Participants will engage in an immersive Kotlin and Android app development workshop, learning to build powerful mobile apps from scratch.",
+    details:
+      "Participants will engage in an immersive Kotlin and Android app development workshop, learning to build powerful mobile apps from scratch.",
   },
   {
     title: "create.fig",
     description: "By Gagan N Bangaragiri",
-    image: "url1",
+    image: figma,
     room: "SJT 614",
     date: "19/08/2024",
     time: "10:00AM - 1:00 PM",
     location: "Sarojini Naidu Gallery",
-    details: "In this hands-on Figma workshop, participants will explore UI/UX design, mastering key principles and creating user-friendly, visually stunning interfaces with efficient prototyping.",
+    details:
+      "In this hands-on Figma workshop, participants will explore UI/UX design, mastering key principles and creating user-friendly, visually stunning interfaces with efficient prototyping.",
   },
   {
     title: "calibrate.ai",
     description: "By Jahnavi Majumder",
-    image: "url2",
+    image: tensor,
     room: "TBA ",
     date: "TBA",
     time: "TBA",
     location: "TBA ",
-    details: "Participants will gain practical experience in a hands-on machine learning workshop, equipping them with tools and techniques to solve real-world problems using ML.",
+    details:
+      "Participants will gain practical experience in a hands-on machine learning workshop, equipping them with tools and techniques to solve real-world problems using ML.",
   },
   {
     title: "config.pcb",
     description: "By Anaghhashree P and Hema Harini G",
-    image: "url3",
+    image: kit,
     room: "TBA",
     date: "TBA",
     time: "TBA",
     location: "TBA",
-    details: "Participants will master PCB design in this workshop, learning to create efficient and reliable circuit boards from scratch. They'll gain practical experience with essential design tools and techniques for their electronic projects.",
+    details:
+      "Participants will master PCB design in this workshop, learning to create efficient and reliable circuit boards from scratch. They'll gain practical experience with essential design tools and techniques for their electronic projects.",
   },
   {
     title: "web.rtc",
     description: "By Harsh Kumar Sinha",
-    image: "url3",
+    image: WebRTC,
     room: "TBA",
     date: "TBA",
     time: "TBA",
     location: "TBA",
-    details: "This WebRTC workshop will guide participants in building real-time communication apps, with hands-on practice in video, voice, and peer-to-peer connectivity.",
+    details:
+      "This WebRTC workshop will guide participants in building real-time communication apps, with hands-on practice in video, voice, and peer-to-peer connectivity.",
   },
 ];
 
 function App() {
+  
   const [introFinished, setIntroFinished] = useState(false);
   const [playAudio, setPlayAudio] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
@@ -95,9 +107,14 @@ function App() {
   };
 
   return (
-    <div className="w-[98.9vw]"> 
-    <audio ref={audioRef} loop preload="auto" src="/loading intro.mp3"></audio>
-    {!introFinished ? (
+    <div className="w-[98.9vw]">
+      <audio
+        ref={audioRef}
+        loop
+        preload="auto"
+        src="/loading intro.mp3"
+      ></audio>
+      {!introFinished ? (
         <Intro onFinish={handleFinish} onPlayAudio={handlePlayAudio} />
       ) : (
         <div className="">
@@ -146,7 +163,7 @@ function App() {
               </Slogan>
               <Faq />
               <Teamsection />
-              <Mainwebsite />
+              {/* <Mainwebsite /> */}
 
               <Footer />
             </div>

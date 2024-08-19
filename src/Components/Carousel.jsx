@@ -41,7 +41,16 @@ const Carousel = ({ cardData }) => {
       >
         {cardData.map((item, index) => (
           <div className=" my-[150px] flex justify-center " key={index}>
-            <Card details={item.details} room={item.room} title={item.title} description={item.description} date={item.date} time={item.time} location={item.location}/>
+            <Card
+              details={item.details}
+              room={item.room}
+              title={item.title}
+              description={item.description}
+              date={item.date}
+              image={item.image}
+              time={item.time}
+              location={item.location}
+            />
           </div>
         ))}
       </div>

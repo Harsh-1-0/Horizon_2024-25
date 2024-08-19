@@ -1,10 +1,18 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line react/no-unknown-property
 import React from "react";
-import PropTypes  from "prop-types";
+import PropTypes from "prop-types";
 
-
-const Card = ({room, details,description,time,date,location,title}) => {
+const Card = ({
+  title,
+  description,
+  image,
+  room,
+  date,
+  time,
+  location,
+  details,
+}) => {
   return (
     <div className="w-[98vw] flex justify-center">
       {/*  eslint-disable-next-line react/no-unknown-property */}
@@ -481,8 +489,8 @@ const Card = ({room, details,description,time,date,location,title}) => {
           <div className="circle h-[381.39px] w-[381.39px] border border-black rounded-full bg-[#B5DDC2] relative top-[96.14px] left-[-174.26px]"></div>
           <img
             className="img-1 relative w-[155.97px] h-[182.95px] top-[37px] left-[-36px] opacity-[0.85]"
-            src="/Linux_Logo_in_Linux_Libertine_Font 1.png"
-            alt="hello"
+            src={image}
+            alt="Logo"
           />
 
           <div className="place absolute w-[156px] h-[51.16px] border border-black rounded-[25.58px] top-[37px] right-[44px] z-[20] bg-[#FEFBEC] flex justify-center items-center text-[22px] font-light leading-[30px] tracking-wide">
@@ -548,15 +556,14 @@ const Card = ({room, details,description,time,date,location,title}) => {
   );
 };
 Card.propTypes = {
-  title:PropTypes.string.isRequired,
-  room:PropTypes.string.isRequired,
-  date:PropTypes.string.isRequired,
-  time:PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  room: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  time: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  details:PropTypes.string.isRequired,
-  
+  details: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
 };
-
 
 export default Card;

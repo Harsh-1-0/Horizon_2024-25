@@ -23,10 +23,12 @@ function Footer() {
             <div>Vellore, Tamil Nadu</div>
             <div>India - 632014</div>
           </div>
-          <div className="underline mb-2 text-sm font-normal"> {/* Added font-normal for consistency */}
+          <div className="underline mb-2 text-sm font-normal">
+            {" "}
+            {/* Added font-normal for consistency */}
             <a
               href="mailto:iste@vit.ac.in"
-              className="text-black font-normal"  // Added class to match font weight
+              className="text-black font-normal" // Added class to match font weight
             >
               iste@vit.ac.in
             </a>
@@ -38,7 +40,8 @@ function Footer() {
               className="underline cursor-pointer text-sm"
               onClick={handleScrollToMainWebsite}
             >
-              Visit ISTE main website
+              {/* Needs to be removed once the main website is done */}
+              <a href="https://istevit.in/">Visit ISTE main website</a>
             </span>
             <div className="flex items-center">
               <span className="text-sm">Made with</span>
@@ -94,7 +97,7 @@ function Footer() {
 
           <div className="w-full h-0.5 bg-black mt-8"></div>
         </div>
-        
+
         {/* For large screens */}
         <div className="hidden md:flex flex-col w-full px-8">
           <div className="flex flex-col md:flex-row justify-between">
@@ -104,10 +107,12 @@ function Footer() {
                 <div>Vellore, Tamil Nadu</div>
                 <div>India - 632014</div>
               </div>
-              <div className="underline mb-2 font-normal"> {/* Added font-normal for consistency */}
+              <div className="underline mb-2 font-normal">
+                {" "}
+                {/* Added font-normal for consistency */}
                 <a
                   href="mailto:iste@vit.ac.in"
-                  className="text-black font-normal"  // Added class to match font weight
+                  className="text-black font-normal" // Added class to match font weight
                 >
                   iste@vit.ac.in
                 </a>
