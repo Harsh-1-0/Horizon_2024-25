@@ -493,7 +493,7 @@ const Card = ({
             alt="Logo"
           />
 
-          <div className="place absolute w-[156px] h-[51.16px] border border-black rounded-[25.58px] top-[37px] right-[44px] z-[20] bg-[#FEFBEC] flex justify-center items-center text-[22px] font-light leading-[30px] tracking-wide">
+          <div className="place  absolute w-[156px] h-[51.16px] border border-black rounded-[25.58px] top-[37px] right-[44px] z-[20] bg-[#FEFBEC] flex justify-center items-center text-[22px] font-light leading-[30px] tracking-wide">
             {room}
           </div>
           <div className="dusra h-[280.9px] w-[280.9px] border border-black bg-[#F2C7AB] rounded-full relative top-[-140.45px] left-[85.42px] z-10"></div>
@@ -547,7 +547,7 @@ const Card = ({
                 alt=""
                 className="w-[22.85px] h-[29px]"
               />
-              <p>{location}</p>
+              <p className="max-md:text-xs">{location}</p>
             </div>
           </div>
         </div>
