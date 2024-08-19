@@ -547,7 +547,7 @@ const Card = ({
                 alt=""
                 className="w-[22.85px] h-[29px]"
               />
-              <p className="max-md:text-xs">{location}</p>
+              <p className="max-md:text-[8px] max-md:py-4">{location}</p>
             </div>
           </div>
         </div>
