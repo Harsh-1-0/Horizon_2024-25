@@ -2,34 +2,32 @@ import { useState } from "react";
 import star from "../assets/star.png";
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const faqs = [
     {
-      question: "What is React?",
-      answer: "React is a JavaScript library for building user interfaces.",
+      question: "What is Horizon?",
+      answer: "Horizon, hosted annually by ISTE-VIT, is a national technical summit featuring the flagship hackathon Technica, along with curated events and workshops in Web Development, Machine Learning, IoT, and Competitive Coding.",
     },
     {
-      question: "What is Tailwind CSS?",
+      question: "What is Technica?",
       answer:
-        "Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.",
+        "Technica is a 48 hour long hackathon that concludes Horizon. More than just a coding competition, Technica fosters collaboration, converging minds to address real-world challenges.",
     },
     {
-      question: "How do I use Tailwind CSS with React?",
+      question: "Do i need to pay to attend Horizon Workshops?",
       answer:
-        "You can use Tailwind CSS with React by installing it via npm and configuring it with your project.",
+        "⁠Horizon Workshops are free of cost.",
     },
     {
-      question: "Biscuit ka matlab kya hota hai?",
+      question: "Where should I register?",
       answer:
-        "Bis - Vish  cuit - kut kut kar 'Jisme Vish koot koot kar bhara ho wahi hoti hai biscuit'",
+        "Register for them on VTOP -> SW Events -> Event Registration.",
     },
     {
-      question: "What software will be used for the config.pcb workshop ?",
+      question: "Are these workshops beginner friendly? ",
       answer:
-        "We'll be using KiCad software for the assembly and designing of the pcb.",
+        "The workshops are extremely beginner friendly and will start from the basics.",
     },
   ];
-
   const handleToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };

@@ -54,11 +54,11 @@ function Home() {
               </span>
               <br />
               <span className="text-2xl md:text-4xl text-technicagreyfont-poppins block">
-                Sed vestibulum diam auctor,{" "}
+                See you at Horizon,{" "}
               </span>
-              <span className="text-2xl md:text-4xl mb-2 text-[#1E1E1E] font-poppins">
+              {/* <span className="text-2xl md:text-4xl mb-2 text-[#1E1E1E] font-poppins">
                 tincidunt <span className="font-extrabold">mi nec</span>
-              </span>
+              </span> */}
               <br />
             </div>
             <div className="flex flex-col justify-evenly items-center -mt-24 md:-mt-2">
