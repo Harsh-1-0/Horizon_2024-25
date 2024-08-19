@@ -39,9 +39,9 @@ const Carousel = ({ cardData }) => {
           }%)`,
         }}
       >
-        {cardData.map((index) => (
+        {cardData.map((item, index) => (
           <div className=" my-[150px] flex justify-center " key={index}>
-            <Card />
+            <Card details={item.details} room={item.room} title={item.title} description={item.description} date={item.date} time={item.time} location={item.location}/>
           </div>
         ))}
       </div>

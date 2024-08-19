@@ -24,6 +24,7 @@ const cardData = [
     date: "08/08/2024",
     time: "10:00AM - 6:00 PM",
     location: "Sarojini Naidu Gallery",
+    details: "Participants will engage in an immersive Kotlin and Android app development workshop, learning to build powerful mobile apps from scratch.",
   },
   {
     title: "create.fig",
@@ -33,6 +34,7 @@ const cardData = [
     date: "19/08/2024",
     time: "10:00AM - 1:00 PM",
     location: "Sarojini Naidu Gallery",
+    details: "In this hands-on Figma workshop, participants will explore UI/UX design, mastering key principles and creating user-friendly, visually stunning interfaces with efficient prototyping.",
   },
   {
     title: "calibrate.ai",
@@ -40,26 +42,29 @@ const cardData = [
     image: "url2",
     room: "TBA ",
     date: "TBA",
-    time: "1TBA",
+    time: "TBA",
     location: "TBA ",
+    details: "Participants will gain practical experience in a hands-on machine learning workshop, equipping them with tools and techniques to solve real-world problems using ML.",
   },
   {
     title: "config.pcb",
-    description: "By Anaghhashree Perumal and Hema Harini",
+    description: "By Anaghhashree P and Hema Harini G",
     image: "url3",
     room: "TBA",
     date: "TBA",
     time: "TBA",
     location: "TBA",
+    details: "Participants will master PCB design in this workshop, learning to create efficient and reliable circuit boards from scratch. They'll gain practical experience with essential design tools and techniques for their electronic projects.",
   },
   {
     title: "web.rtc",
-    description: "Harsh Kumar Sinha",
+    description: "By Harsh Kumar Sinha",
     image: "url3",
     room: "TBA",
     date: "TBA",
     time: "TBA",
     location: "TBA",
+    details: "This WebRTC workshop will guide participants in building real-time communication apps, with hands-on practice in video, voice, and peer-to-peer connectivity.",
   },
 ];
 
@@ -119,7 +124,7 @@ function App() {
               <Technica>
                 <div>
                   Come together with the{" "}
-                  <span className="bolder">Nation's brightest minds </span>
+                  <span className="bolder">Nation&apos;s brightest minds </span>
                   for <span className="bolder">48 hours </span>of
                 </div>
                 {
