@@ -3,26 +3,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@media (max-height: 700px) {
-  .max-h-500px-mt-4 {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
-}
-
-@media (max-height: 700px) {
-  .iphone-se {
-    margin-top: 6px;
- }
-}
-
-@media (max-height: 700px) {
-  .se-image {
-    
- }
-}
-
-
 
 a {
   font-weight: 500;
