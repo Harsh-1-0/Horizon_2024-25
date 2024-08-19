@@ -20,11 +20,12 @@ function Home() {
             </span>
             
             <button
-              type="submit"
-              className="bg-[#F2C6AB] p-4 border-black border-2 rounded-full text-2xl font-normal"
-            >
-              Register Now
-            </button>
+  type="submit"
+  className="bg-[#F2C6AB] p-4 border-black border-2 rounded-full text-2xl font-normal"
+  onClick={() => window.location.href = "https://vtop.vit.ac.in/vtop/login"}
+>
+  Register Now
+</button>
           </div>
           <div className="w-2/5  flex items-center justify-center relative overflow-hidden p-8 border-black border-l-2">
             <img className="size-[65vh]" src="/homepage.png" />
@@ -66,6 +67,7 @@ function Home() {
               <button
                 type="submit"
                 className="bg-[#F2C6AB]  text-[#1E1E1E] mt-12 border-black border-2 rounded-xl font-normal md:mt-8 w-3/10 p-2"
+                onClick={() => window.location.href = "https://vtop.vit.ac.in/vtop/login"}
               >
                 Register Now
               </button>
